@@ -1,0 +1,25 @@
+{
+  "name": "vite-ts-tailwind-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/ui": "^0.6.1",
+    "tailwindcss": "^1.8.10",
+    "vue": "^3.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.10",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.1.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "typescript": "^4.0.2",
+    "vite": "^1.0.0-rc.4"
+  }
+}
