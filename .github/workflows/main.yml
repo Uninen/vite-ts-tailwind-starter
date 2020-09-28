@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  ci:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      ## Yarn dir
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      ## Cache
+      - name: Cache yarn cache
+        uses: actions/cache@v2
+        id: cache-yarn-cache2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn2-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn2-
+
+      ## Cache
+      - name: Cache node_modules
+        id: cache-node-modules2
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ matrix.node-version }}-nodemodules2-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.node-version }}-nodemodules2-
+
+      ## Cache
+      - name: Cache Cypress
+        id: cache-cypress2
+        uses: actions/cache@v2
+        with:
+          path: /home/runner/.cache/Cypress
+          key: ${{ runner.os }}-${{ matrix.node-version }}-cypress2-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.node-version }}-cypress2-
+
+      ## Dependencies
+      - name: Install Dependencies
+        if: |
+          steps.cache-yarn-cache.outputs.cache-hit != 'true' ||
+          steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: yarn --frozen-lockfile
+
+      ## Test
+      - name: Start Vite devserver
+        run: yarn start
+
+      - name: Run tests
+        run: yarn test:ci
+
+      - name: Upload artifacts on fail
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: videos
+          path: tests/e2e/videos/
