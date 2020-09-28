@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "yarn dev & wait-on http://localhost:3000",
     "test": "cypress open",
     "test:ci": "cypress run --headless"
   },
@@ -11,7 +12,8 @@
     "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.6.2",
     "tailwindcss": "^1.8.10",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "wait-on": "^5.2.0"
   },
   "devDependencies": {
     "@types/cypress": "^1.1.3",
