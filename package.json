@@ -11,7 +11,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0",
     "@tailwindcss/ui": "^0.6.2",
-    "tailwindcss": "^1.8.11",
+    "tailwindcss": "^1.8.12",
     "vue": "^3.0.0"
   },
   "devDependencies": {
