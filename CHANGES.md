@@ -1,3 +1,5 @@
+# Changelog
+
 ## 0.2.0 (2020-10-24)
 
 - Added commented out tailwind UI config
