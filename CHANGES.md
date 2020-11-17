@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 (2020-11-17)
+
+- Added pre-configured GitLab CI, moved project to GitLab
+- Renamed master branch to trunk
+- Bumped deps
+
 ## 0.2.0 (2020-10-24)
 
 - Added commented out tailwind UI config
