@@ -26,6 +26,7 @@ test:
     - yarn cache dir
     - cd -- "$CI_PROJECT_DIR"
     - yarn --frozen-lockfile
+    - yarn start
     - yarn test:ci
   coverage: '/Lines\s+:\s(\d+.?\d+)%/'
   artifacts:
