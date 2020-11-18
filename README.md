@@ -10,7 +10,6 @@ Simple, opinionated TS + Tailwind project template for experimenting w/ Vite.
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
--
 - Eslint
 - Prettier
 - Simple reactive store
