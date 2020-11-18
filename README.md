@@ -6,7 +6,11 @@ Simple, opinionated TS + Tailwind project template for experimenting w/ Vite.
 
 - Vue 3
 - TypeScript
-- Tailwind CSS
+- Tailwind CSS w/ plugins preinstalled
+  - `@tailwindcss/aspect-ratio`
+  - `@tailwindcss/typography`
+  - `@tailwindcss/forms`
+-
 - Eslint
 - Prettier
 - Simple reactive store

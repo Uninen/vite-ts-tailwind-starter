@@ -14,13 +14,8 @@ module.exports = {
   //   },
   // },
   plugins: [
-    // require('@tailwindcss/ui')({
-    //   layout: 'sidebar',
-    // }),
+    require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
 }

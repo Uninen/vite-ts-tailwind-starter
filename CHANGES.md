@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 (2020-11-18)
+
+- Upgraded to Tailwind 2.0
+- Added `@tailwindcss/aspect-ratio` and `@tailwindcss/forms` plugins
+
 ## 0.3.0 (2020-11-17)
 
 - Added pre-configured GitLab CI, moved project to GitLab

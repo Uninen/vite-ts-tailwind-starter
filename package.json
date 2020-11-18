@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,9 +9,10 @@
     "test:ci": "cypress run --headless"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.2.0",
-    "@tailwindcss/ui": "^0.7.2",
-    "tailwindcss": "^1.9.6",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "tailwindcss": "^2.0.1-compat",
     "vue": "^3.0.2"
   },
   "devDependencies": {
