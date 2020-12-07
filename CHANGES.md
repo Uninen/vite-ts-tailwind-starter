@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.5.0 (2020-12-07)
+
+- Feat: added `vite.config.js`.
+- Chore: bumped deps.
+- Fix: repackaged TailwindCSS compatibility version as per new docs.
+
+## 0.4.2 (2020-11-23)
+
+- Chore: bumped deps.
+
+## 0.4.1 (2020-11-19)
+
+- Fix: fixed Tailwind package.
+
 ## 0.4.0 (2020-11-18)
 
 - Upgraded to Tailwind 2.0
