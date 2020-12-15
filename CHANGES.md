@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.1 (2020-12-15)
+
+- Chore: bumped deps.
 ## 0.5.0 (2020-12-07)
 
 - Feat: added `vite.config.js`.
