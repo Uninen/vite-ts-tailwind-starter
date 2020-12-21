@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.2 (2020-12-21)
+
+- Chore: bumped deps.
 ## 0.5.1 (2020-12-15)
 
 - Chore: bumped deps.
