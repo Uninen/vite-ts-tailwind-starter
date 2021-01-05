@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/cypress": "~1.1",
-    "@typescript-eslint/eslint-plugin": "~4.11",
+    "@typescript-eslint/eslint-plugin": "~4.12",
     "@typescript-eslint/parser": "~4.11",
     "@vue/compiler-sfc": "~3.0",
     "@vue/eslint-config-standard": "~6.0",
