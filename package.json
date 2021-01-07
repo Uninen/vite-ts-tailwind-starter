@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vuedx-typecheck src && vite build",
-    "start": "yarn dev & wait-on http://localhost:3000",
+    "start": "yarn dev & wait-on tcp:3000 -v",
     "test": "cypress open",
     "test:ci": "cypress run --headless"
   },
