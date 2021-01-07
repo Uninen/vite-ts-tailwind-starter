@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.0 (2021-01-07)
+
+- Feat: upgraded Vite to 2.0 Beta
 ## 0.5.3 (2020-12-28)
 
 - Chore: bumped deps.

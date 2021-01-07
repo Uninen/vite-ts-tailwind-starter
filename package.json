@@ -1,9 +1,9 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vuedx-typecheck src && vite build",
     "start": "yarn dev & wait-on http://localhost:3000",
     "test": "cypress open",
     "test:ci": "cypress run --headless"
@@ -19,17 +19,20 @@
   },
   "devDependencies": {
     "@types/cypress": "~1.1",
-    "@typescript-eslint/eslint-plugin": "~4.11",
-    "@typescript-eslint/parser": "~4.11",
+    "@typescript-eslint/eslint-plugin": "~4.12",
+    "@typescript-eslint/parser": "~4.12",
     "@vue/compiler-sfc": "~3.0",
     "@vue/eslint-config-standard": "~6.0",
     "@vue/eslint-config-typescript": "~7.0",
     "cypress": "^6.2",
-    "eslint": "~7.16",
+    "eslint": "~7.17",
     "eslint-plugin-vue": "~7.4",
     "typescript": "~4.1",
-    "vite": "^1.0.0-rc.13",
-    "wait-on": "~5.2"
+    "wait-on": "~5.2",
+    "@vitejs/plugin-vue": "~1.0",
+    "@vuedx/typecheck": "~0.4",
+    "@vuedx/typescript-plugin-vue": "~0.4",
+    "vite": "^2.0.0-beta.7"
   },
   "resolutions": {
     "cypress": "^6.2"
