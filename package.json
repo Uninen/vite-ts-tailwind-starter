@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "scripts": {
     "dev": "vite",
     "build": "vuedx-typecheck src && vite build",
@@ -9,16 +9,15 @@
     "test:ci": "cypress run --headless"
   },
   "dependencies": {
+    "vue": "~3.0"
+  },
+  "devDependencies": {
     "@tailwindcss/aspect-ratio": "~0.2",
     "@tailwindcss/forms": "~0.2",
     "@tailwindcss/typography": "~0.3",
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "vue": "~3.0"
-  },
-  "devDependencies": {
-    "@types/cypress": "~1.1",
     "@typescript-eslint/eslint-plugin": "~4.12",
     "@typescript-eslint/parser": "~4.12",
     "@vue/compiler-sfc": "~3.0",
@@ -32,7 +31,7 @@
     "@vitejs/plugin-vue": "~1.0",
     "@vuedx/typecheck": "~0.4",
     "@vuedx/typescript-plugin-vue": "~0.4",
-    "vite": "^2.0.0-beta.7"
+    "vite": "~2.0.0-beta"
   },
   "resolutions": {
     "cypress": "^6.2"
