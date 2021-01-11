@@ -31,7 +31,7 @@
     "@vitejs/plugin-vue": "~1.0",
     "@vuedx/typecheck": "~0.4",
     "@vuedx/typescript-plugin-vue": "~0.4",
-    "vite": "~2.0.0-beta"
+    "vite": "~2.0.0-beta.21"
   },
   "resolutions": {
     "cypress": "^6.2"
