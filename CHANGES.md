@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.2 (2021-01-18)
+
+- Chore: bumped deps.
 ## 0.6.1 (2021-01-08)
 
 - Fix: moved non-browser packages to dev dependencies
