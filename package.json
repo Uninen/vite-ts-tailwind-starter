@@ -18,7 +18,7 @@
     "autoprefixer": "^9",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "@typescript-eslint/eslint-plugin": "~4.13",
+    "@typescript-eslint/eslint-plugin": "~4.14",
     "@typescript-eslint/parser": "~4.13",
     "@vue/compiler-sfc": "~3.0",
     "@vue/eslint-config-standard": "~6.0",
