@@ -1,6 +1,6 @@
 # Vite Typescript + Tailwind Starter
 
-Simple, opinionated TS + Tailwind project template for experimenting w/ Vite.
+Simple, opinionated, and production-ready TS + Tailwind project template for Vite.
 
 ## Features
 
@@ -10,6 +10,7 @@ Simple, opinionated TS + Tailwind project template for experimenting w/ Vite.
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
+- PostCSS w/ `postcss-nesting` plugin
 - Eslint
 - Prettier
 - Simple reactive store
@@ -17,7 +18,7 @@ Simple, opinionated TS + Tailwind project template for experimenting w/ Vite.
 - GitHub workflows
   - Dependabot
   - Automated e2e tests
-
+- GitLab CI
 ## Project setup and usage
 
 Install dependencies:

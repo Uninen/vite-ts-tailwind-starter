@@ -18,7 +18,7 @@ cache:
 test:
   stage: test
   image:
-    name: cypress/included:5.6.0
+    name: cypress/included:6.3.0
     entrypoint: [""]
   script:
     # Uncomment for debugging
@@ -35,4 +35,4 @@ test:
       - "$CI_PROJECT_DIR/coverage"
     expire_in: 2 weeks
     when: on_failure
-  timeout: 10m
+  timeout: 15m

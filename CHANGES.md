@@ -1,17 +1,22 @@
 # Changelog
 
+## 0.7.0 (2021-01-21)
+
+- Feat: upgraded Cypress and GitLab Cypress image to 6.3.0.
+- Feat: added [postcss-nesting](https://github.com/jonathantneal/postcss-nesting) plugin.
+- Chore: bumped deps.
 ## 0.6.2 (2021-01-18)
 
 - Chore: bumped deps.
 ## 0.6.1 (2021-01-08)
 
-- Fix: moved non-browser packages to dev dependencies
-- Chore: bumped deps
+- Fix: moved non-browser packages to dev dependencies.
+- Chore: bumped deps.
 
 ## 0.6.0 (2021-01-07)
 
-- Feat: upgraded Vite to 2.0 Beta
-- Fix: fixed GitHub actions
+- Feat: upgraded Vite to 2.0 Beta.
+- Fix: fixed GitHub actions.
 
 ## 0.5.3 (2020-12-28)
 
