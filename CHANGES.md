@@ -1,5 +1,10 @@
 # Changelog
 
+
+## 0.8.0 (2021-01-28)
+
+- Feat: added an alias for referring `<project_root>/src` with just `@`.
+- Chore: bumped deps.
 ## 0.7.0 (2021-01-21)
 
 - Feat: upgraded Cypress and GitLab Cypress image to 6.3.0.

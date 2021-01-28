@@ -14,6 +14,7 @@ Simple, opinionated, and production-ready TS + Tailwind project template for Vit
 - Eslint
 - Prettier
 - Simple reactive store
+- Alias to `<project_root>/src` with `@`
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - GitHub workflows
   - Dependabot
