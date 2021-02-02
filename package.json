@@ -24,7 +24,7 @@
     "@vuedx/typecheck": "~0.6",
     "@vuedx/typescript-plugin-vue": "~0.6",
     "autoprefixer": "^9",
-    "cypress": "^6.3",
+    "cypress": "^6.4",
     "eslint": "~7.18",
     "eslint-plugin-vue": "~7.5",
     "postcss": "^7",
