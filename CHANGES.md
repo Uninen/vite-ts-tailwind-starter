@@ -1,18 +1,28 @@
 # Changelog
 
+## 0.9.0 (2021-02-08)
+
+- Feat: added a fully typed example of Vuex 4 store (It's much easier to strip out if you don't need it than to build manually every time you do.)
+- Feat: added `@tailwindcss/line-clamp` plugin.
+- Feat: added `_APP_VERSION` constant that can be defined build time.
+- Refactor: moved to the new [script setup syntax](https://github.com/vuejs/rfcs/pull/227). (At the time of this change Vetur doesn't understand this syntax yet so you might want to use Volar instead.)
+- Chore: bumped deps.
 
 ## 0.8.0 (2021-01-28)
 
 - Feat: added an alias for referring `<project_root>/src` with just `@`.
 - Chore: bumped deps.
+
 ## 0.7.0 (2021-01-21)
 
 - Feat: upgraded Cypress and GitLab Cypress image to 6.3.0.
 - Feat: added [postcss-nesting](https://github.com/jonathantneal/postcss-nesting) plugin.
 - Chore: bumped deps.
+
 ## 0.6.2 (2021-01-18)
 
 - Chore: bumped deps.
+
 ## 0.6.1 (2021-01-08)
 
 - Fix: moved non-browser packages to dev dependencies.
@@ -26,12 +36,15 @@
 ## 0.5.3 (2020-12-28)
 
 - Chore: bumped deps.
+
 ## 0.5.2 (2020-12-21)
 
 - Chore: bumped deps.
+
 ## 0.5.1 (2020-12-15)
 
 - Chore: bumped deps.
+
 ## 0.5.0 (2020-12-07)
 
 - Feat: added `vite.config.js`.

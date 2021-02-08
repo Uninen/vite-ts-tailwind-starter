@@ -1,10 +1,13 @@
 # Vite Typescript + Tailwind Starter
 
-Simple, opinionated, and production-ready TS + Tailwind project template for Vite.
+Simple, opinionated, and **production-ready** TS + Tailwind project template for Vite 2.
+
+See [changelog](./CHANGES.md) for latest changes.
 
 ## Features
 
 - Vue 3
+- Vuex 4 store (fully typed)
 - TypeScript
 - Tailwind CSS w/ plugins preinstalled
   - `@tailwindcss/aspect-ratio`
@@ -13,7 +16,6 @@ Simple, opinionated, and production-ready TS + Tailwind project template for Vit
 - PostCSS w/ `postcss-nesting` plugin
 - Eslint
 - Prettier
-- Simple reactive store
 - Alias to `<project_root>/src` with `@`
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - GitHub workflows

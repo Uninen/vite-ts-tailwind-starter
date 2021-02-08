@@ -1,18 +1,19 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "scripts": {
     "dev": "vite",
-    "build": "vuedx-typecheck src && vite build",
+    "build": "vite build",
     "start": "yarn dev & wait-on tcp:3000 -v",
     "test": "cypress open",
     "test:ci": "cypress run --headless"
   },
   "dependencies": {
     "vue": "~3.0",
-    "vuex": "^4.0.0"
+    "vuex": "~4.0"
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "~0.2",
     "@tailwindcss/aspect-ratio": "~0.2",
     "@tailwindcss/forms": "~0.2",
     "@tailwindcss/typography": "~0.4",
