@@ -7,4 +7,7 @@ export default defineConfig({
   alias: {
     '@': path.resolve(__dirname, './src'),
   },
+  define: {
+    _APP_VERSION: 'dev',
+  },
 })

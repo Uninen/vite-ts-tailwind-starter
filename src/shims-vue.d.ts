@@ -3,3 +3,5 @@ declare module '*.vue' {
   const _default: Component
   export default _default
 }
+
+declare const _APP_VERSION: string

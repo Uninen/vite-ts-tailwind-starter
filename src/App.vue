@@ -6,14 +6,6 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
+<script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-
-export default defineComponent({
-  components: {
-    HelloWorld,
-  },
-})
 </script>
