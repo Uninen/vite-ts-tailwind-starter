@@ -29,7 +29,7 @@
     "cypress": "^6.4",
     "eslint": "~7.19",
     "eslint-plugin-vue": "~7.5",
-    "postcss": "^7",
+    "postcss": "^8",
     "postcss-nesting": "^7.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "~4.1",
