@@ -17,7 +17,7 @@
     "@tailwindcss/aspect-ratio": "~0.2",
     "@tailwindcss/forms": "~0.2",
     "@tailwindcss/typography": "~0.4",
-    "@typescript-eslint/eslint-plugin": "~4.14",
+    "@typescript-eslint/eslint-plugin": "~4.15",
     "@typescript-eslint/parser": "~4.14",
     "@vitejs/plugin-vue": "~1.1",
     "@vue/compiler-sfc": "~3.0",
