@@ -5,6 +5,8 @@
       count is: {{ count }}
     </button>
     <p>Edit <code>components/HelloWorld.vue</code> to test hot module replacement.</p>
+
+    <p class="text-sm text-gray-700">vite-ts-tailwind-starter v{{ appVersion }}</p>
   </div>
 </template>
 
@@ -14,6 +16,7 @@ import { computed, defineProps } from 'vue'
 import { useStore, Mutation } from '@/store/index'
 
 const store = useStore()
+const appVersion = store.state.version // not reactive!
 const count = computed(() => store.state.count)
 const props = defineProps<{
   msg: string

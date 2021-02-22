@@ -13,10 +13,12 @@ See [changelog](./CHANGES.md) for latest changes.
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
-- PostCSS w/ `postcss-nesting` plugin
+- PostCSS 8 w/ `postcss-nesting` plugin
 - Eslint
 - Prettier
-- Alias to `<project_root>/src` with `@`
+- Alias `@` to `<project_root>/src`
+- Define `_APP_VERSION` from `package.json` version at build time
+- Using new `script setup` syntax (see [rfc #227]([script setup](https://github.com/vuejs/rfcs/pull/227)))
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - GitHub workflows
   - Dependabot

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2021-02-22)
+
+- Feat: added an example of `_APP_VERSION` using version from `package.json`
+- Docs: tweaked README.
+- Chore: upgraded Tailwind from PostCSS 7 compatibility build to latest PostCSS 8.
+- Chore: upgraded Vite from beta to latest 2.0.
+- Chore: changed dependabot interval to monthly.
+
 ## 0.9.0 (2021-02-08)
 
 - Feat: added a fully typed example of Vuex 4 store (It's much easier to strip out if you don't need it than to build manually every time you do.)

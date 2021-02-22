@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,30 +13,27 @@
     "vuex": "~4.0"
   },
   "devDependencies": {
-    "@tailwindcss/line-clamp": "~0.2",
     "@tailwindcss/aspect-ratio": "~0.2",
     "@tailwindcss/forms": "~0.2",
+    "@tailwindcss/line-clamp": "~0.2",
     "@tailwindcss/typography": "~0.4",
-    "@typescript-eslint/eslint-plugin": "~4.14",
-    "@typescript-eslint/parser": "~4.14",
+    "@typescript-eslint/eslint-plugin": "~4.15",
+    "@typescript-eslint/parser": "~4.15",
     "@vitejs/plugin-vue": "~1.1",
     "@vue/compiler-sfc": "~3.0",
     "@vue/eslint-config-standard": "~6.0",
     "@vue/eslint-config-typescript": "~7.0",
     "@vuedx/typecheck": "~0.6",
     "@vuedx/typescript-plugin-vue": "~0.6",
-    "autoprefixer": "^9",
-    "cypress": "^6.4",
-    "eslint": "~7.19",
-    "eslint-plugin-vue": "~7.5",
-    "postcss": "^7",
-    "postcss-nesting": "^7.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "autoprefixer": "~10.2",
+    "cypress": "^6.5",
+    "eslint": "~7.20",
+    "eslint-plugin-vue": "~7.6",
+    "postcss": "~8.2",
+    "postcss-nesting": "~7.0",
+    "tailwindcss": "~2.0",
     "typescript": "~4.1",
-    "vite": "~2.0.0-beta",
+    "vite": "~2.0",
     "wait-on": "~5.2"
-  },
-  "resolutions": {
-    "cypress": "^6.4"
   }
 }
