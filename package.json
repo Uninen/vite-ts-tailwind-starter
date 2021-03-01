@@ -27,7 +27,7 @@
     "@vuedx/typescript-plugin-vue": "~0.6",
     "autoprefixer": "~10.2",
     "cypress": "^6.5",
-    "eslint": "~7.20",
+    "eslint": "~7.21",
     "eslint-plugin-vue": "~7.6",
     "postcss": "~8.2",
     "postcss-nesting": "~7.0",
