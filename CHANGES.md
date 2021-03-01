@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.0 (2021-03-01)
+- Chore: bumped deps.
+
 ## 1.0.0 (2021-02-22)
 
 - Feat: added an example of `_APP_VERSION` using version from `package.json`
