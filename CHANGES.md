@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 (2021-03-16)
+- Feat: added [Tailwind JIT compiler](https://github.com/tailwindlabs/tailwindcss-jit).
+- Chore: upgraded Vite to 2.1.
+- Chore: bumped deps.
+
 ## 1.0.2 (2021-03-10)
 - Chore: bumped deps.
 

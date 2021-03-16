@@ -9,7 +9,7 @@ See [changelog](./CHANGES.md) for latest changes.
 - Vue 3
 - Vuex 4 store (fully typed)
 - TypeScript
-- Tailwind CSS w/ plugins preinstalled
+- Tailwind CSS w/ JIT compiler + following plugins preinstalled
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
