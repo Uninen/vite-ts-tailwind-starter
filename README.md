@@ -1,6 +1,6 @@
 # Vite Typescript + Tailwind Starter
 
-Simple, opinionated, and **production-ready** TS + Tailwind project template for Vite 2.
+Simple, opinionated, and **production-ready** project template for Vite.
 
 See [changelog](./CHANGES.md) for latest changes.
 
@@ -11,6 +11,7 @@ See [changelog](./CHANGES.md) for latest changes.
 - TypeScript
 - Tailwind CSS w/ JIT compiler + following plugins preinstalled
   - `@tailwindcss/aspect-ratio`
+  - `@tailwindcss/line-clamp`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
 - PostCSS 8 w/ `postcss-nesting` plugin
@@ -18,7 +19,7 @@ See [changelog](./CHANGES.md) for latest changes.
 - Prettier
 - Alias `@` to `<project_root>/src`
 - Define `_APP_VERSION` from `package.json` version at build time
-- Using new `script setup` syntax (see [rfc #227]([script setup](https://github.com/vuejs/rfcs/pull/227)))
+- Using new `script setup` syntax (see [Vue rfc #227](https://github.com/vuejs/rfcs/pull/227))
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - GitHub workflows
   - Dependabot
