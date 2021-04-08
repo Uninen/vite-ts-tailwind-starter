@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.2 (2021-04-08)
+- Fix: fixed Cypress version in GitLab CI conf.
+
 ## 1.1.1 (2021-04-07)
 - Chore: bumped deps.
 
