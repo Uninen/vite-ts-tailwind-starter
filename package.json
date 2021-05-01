@@ -30,7 +30,7 @@
     "eslint": "~7",
     "eslint-plugin-vue": "~7",
     "postcss": "~8.2",
-    "postcss-nesting": "~7.0",
+    "postcss-nesting": "~8.0",
     "tailwindcss": "~2.1",
     "typescript": "~4.2",
     "vite": "~2.1",
