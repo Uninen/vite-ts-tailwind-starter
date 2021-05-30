@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (2021-05-30)
+- Feat: upgraded Vue to 3.1 beta. (If you prefer to use a safer option, just change the requirement in `package.json`.)
+- Chore: bumped deps.
+
 ## 1.1.2 (2021-04-08)
 - Fix: fixed Cypress version in GitLab CI conf.
 

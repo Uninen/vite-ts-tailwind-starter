@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,7 +9,7 @@
     "test:ci": "cypress run --headless"
   },
   "dependencies": {
-    "vue": "~3.0",
+    "vue": "^3.1.0-beta.6",
     "vuex": "~4.0"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "@typescript-eslint/eslint-plugin": "~4",
     "@typescript-eslint/parser": "~4",
     "@vitejs/plugin-vue": "~1.2",
-    "@vue/compiler-sfc": "~3.0",
+    "@vue/compiler-sfc": "^3.1.0-beta.6",
     "@vue/eslint-config-standard": "~6.0",
     "@vue/eslint-config-typescript": "~7.0",
     "@vuedx/typecheck": "~0.6",
@@ -29,11 +29,11 @@
     "cypress": "^7.0",
     "eslint": "~7",
     "eslint-plugin-vue": "~7",
-    "postcss": "~8.2",
-    "postcss-nesting": "~7.0",
+    "postcss": "~8.3",
+    "postcss-nesting": "~8.0",
     "tailwindcss": "~2.1",
-    "typescript": "~4.2",
-    "vite": "~2.1",
+    "typescript": "~4.3",
+    "vite": "~2.3",
     "wait-on": "~5.3"
   }
 }
