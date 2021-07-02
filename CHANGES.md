@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1 (2021-07-02)
+- Chore: bumped deps.
+
 ## 1.3.0 (2021-06-14)
 - Feat: upgraded Vue to 3.1.
 - Chore: bumped deps.
