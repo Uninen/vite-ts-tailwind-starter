@@ -25,6 +25,20 @@ See [changelog](./CHANGES.md) for latest changes.
   - Dependabot
   - Automated e2e tests
 - GitLab CI
+
+## Notes
+
+- If you need more than one parameter in vuex actions, use `payload` object instead of multiple parameters. For example: 
+  ```typescript
+  [Action.updateItem](
+    { commit }: AugmentedActionContext,
+    payload: {
+      id: string
+      obj: Partial<MyItem>
+    }
+  ): Promise<void>
+  ```
+
 ## Project setup and usage
 
 Install dependencies:
