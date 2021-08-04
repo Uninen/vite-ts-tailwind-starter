@@ -1,9 +1,17 @@
 # Changelog
 
 ## 1.4.0 (2021-08-04)
+- Feat: Added `vue-router` (it's easier to remove things than to add them in) and a couple of demo pages.
+- Feat: Added `vercel.json` that works with `vue-router`. You can now publish this template on Vercel and everything Just Works.
+- Feat: Added `VITE_APP_BUILD_EPOCH` (generated build time as `new Date().getTime()`)
+- Feat: added `yarn preview` command.
+- Feat: added Tailwind Firefox-variant (documented on the Index page).
+- Feat: Cypress version from 7.x to 8.x
+- Docs: Added documentation about using Vuex actions, and added recommendation of Volar.
+- Docs: added a screenshot of typed Vue templates under Volar.
+- Refactor: Changed `_APP_VERSION` to `VITE_APP_VERSION`
+- Fix: fixed Vuex devtools compatibility.
 - Chore: bumped deps.
-- Upgraded Cypress version from 7.x to 8.x
-- Added documentation about using Vuex actions, and added recommendation of Volar
 
 ## 1.3.1 (2021-07-02)
 - Chore: bumped deps.

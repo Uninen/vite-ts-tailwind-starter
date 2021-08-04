@@ -1,15 +1,18 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite build && vite preview",
     "start": "yarn dev & wait-on tcp:3000 -v",
     "test": "cypress open",
     "test:ci": "cypress run --headless"
   },
   "dependencies": {
+    "@vueuse/head": "~0.6",
     "vue": "~3.1",
+    "vue-router": "~4.0",
     "vuex": "~4.0"
   },
   "devDependencies": {

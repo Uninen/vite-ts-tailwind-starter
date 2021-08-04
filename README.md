@@ -1,24 +1,35 @@
 # Vite Typescript + Tailwind Starter
 
-Simple, opinionated, and **production-ready** project template for Vite.
+Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
 
-See [changelog](./CHANGES.md) for latest changes.
+![Editor screenshot](src/assets/editor_screenshot.png)
+
+This template is **practical** and **batteries included** but not overly complex or bloated. Also explicit configuration over magic; it should be easy to understand how everything works, strip out anything you don't need, and fast to modify things to your needs.
+
+Includes **plenty of examples** on how to do things but **minimal cruft** to delete to get you going.
+
+There's a [detailed changelog](./CHANGES.md) available.
 
 ## Features
 
 - Vue 3
-- Vuex 4 store (fully typed!)
-- TypeScript
-- Tailwind CSS w/ JIT compiler + following plugins preinstalled
+- **Fully typed** [Vuex 4](https://next.vuex.vuejs.org/) store
+- Routing using [vue-router 4](https://next.router.vuejs.org/)
+- TypeScript 4.3
+- Tailwind CSS 2.2 w/ JIT compiler + following plugins preinstalled
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/line-clamp`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
+  - `firefox`-variant
 - PostCSS 8 w/ `postcss-nesting` plugin
 - Eslint
 - Prettier
 - Alias `@` to `<project_root>/src`
-- Define `_APP_VERSION` from `package.json` version at build time
+- Manually configured global components in `main.ts`
+- Predefined global variables:
+  - `VITE_APP_VERSION` is read from `package.json` version at build time
+  - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
 - Using new `script setup` syntax (see [Vue rfc #227](https://github.com/vuejs/rfcs/pull/227))
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - GitHub workflows
@@ -28,7 +39,7 @@ See [changelog](./CHANGES.md) for latest changes.
  
 ## Notes
 
-- In order to take full advance of the new `script setup` sugar and typescript in Vue SFC templates, you should disable Vetur and use [Volar](https://github.com/johnsoncodehk/volar) instead. (This is totally optional but recommended as it results much better DX!)
+- In order to take full advance of the new `script setup` sugar and full TypeScript support in Vue SFC templates (like in the screenshot above), you should disable Vetur and use [Volar](https://github.com/johnsoncodehk/volar) instead. (This is totally optional but recommended as it results much better DX!)
 - If you need more than one parameter in the typed Vuex actions, use `payload` object instead of multiple parameters. For example: 
   ```typescript
   [Action.updateItem](
@@ -66,10 +77,23 @@ Run Cypress tests in headless mode:
 yarn test:ci
 ```
 
+Build and preview built site locally:
+
+```
+yarn preview
+```
+
+Build:
+
+```
+yarn build
+```
+
+## Elsewhere
+
+- Read my continuously updating learnings from Vite / Vue / TypeScript and other development topics from my [Today I Learned site](https://til.unessa.net/)
+- [Follow @uninen](https://twitter.com/uninen) on Twitter
+
 ## Contributing
 
 Contributions are welcome! Please follow the [code of conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) when interacting with others.
-
----
-
-[Follow @uninen](https://twitter.com/uninen) on Twitter
