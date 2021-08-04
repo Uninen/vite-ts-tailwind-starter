@@ -1,5 +1,7 @@
 # Changelog
 
+## 1.4.1 (2021-08-04)
+- Chore: Renamed master branch from trunk to main to be more developer-friendly. 
 ## 1.4.0 (2021-08-04)
 - Feat: Added `vue-router` (it's easier to remove things than to add them in) and a couple of demo pages.
 - Feat: Added `vercel.json` that works with `vue-router`. You can now publish this template on Vercel and everything Just Works.
