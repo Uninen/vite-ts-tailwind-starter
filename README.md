@@ -7,7 +7,7 @@ See [changelog](./CHANGES.md) for latest changes.
 ## Features
 
 - Vue 3
-- Vuex 4 store (fully typed)
+- Vuex 4 store (fully typed!)
 - TypeScript
 - Tailwind CSS w/ JIT compiler + following plugins preinstalled
   - `@tailwindcss/aspect-ratio`
@@ -25,10 +25,11 @@ See [changelog](./CHANGES.md) for latest changes.
   - Dependabot
   - Automated e2e tests
 - GitLab CI
-
+ 
 ## Notes
 
-- If you need more than one parameter in vuex actions, use `payload` object instead of multiple parameters. For example: 
+- In order to take full advance of the new `script setup` sugar and typescript in Vue SFC templates, you should disable Vetur and use [Volar](https://github.com/johnsoncodehk/volar) instead. (This is totally optional but recommended as it results much better DX!)
+- If you need more than one parameter in the typed Vuex actions, use `payload` object instead of multiple parameters. For example: 
   ```typescript
   [Action.updateItem](
     { commit }: AugmentedActionContext,

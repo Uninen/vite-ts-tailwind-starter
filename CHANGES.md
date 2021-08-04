@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0 (2021-08-04)
+- Chore: bumped deps.
+- Upgraded Cypress version from 7.x to 8.x
+- Added documentation about using Vuex actions, and added recommendation of Volar
+
 ## 1.3.1 (2021-07-02)
 - Chore: bumped deps.
 
