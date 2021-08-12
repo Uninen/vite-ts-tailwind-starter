@@ -7,7 +7,13 @@ process.env.VITE_APP_BUILD_EPOCH = new Date().getTime()
 process.env.VITE_APP_VERSION = pkg.version
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue({
+      script: {
+        refSugar: true,
+      },
+    }),
+  ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.5.0 (2021-08-12)
+- Feat: Upgraded to Vue 3.2 w/ new `script setup` sugar. This is now pre-configured in Vite settings. (Make sure to use Volar extension to take full advantage of it!)
+- Chore: bump deps.
 ## 1.4.1 (2021-08-04)
 - Chore: Renamed master branch from trunk to main to be more developer-friendly. 
 ## 1.4.0 (2021-08-04)
