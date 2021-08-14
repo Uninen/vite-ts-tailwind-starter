@@ -30,7 +30,7 @@ A [detailed changelog](./CHANGES.md) is available.
 - Predefined global variables:
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
-- Using newest `script setup` syntax (see [official documentation](https://v3.vuejs.org/api/sfc-script-setup.html))
+- Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://v3.vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - GitHub workflows
   - Dependabot
