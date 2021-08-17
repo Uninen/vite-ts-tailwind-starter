@@ -29,14 +29,14 @@
     "@vuedx/typecheck": "~0.7",
     "@vuedx/typescript-plugin-vue": "~0.7",
     "autoprefixer": "~10.3",
-    "cypress": "~8.2",
+    "cypress": "~8.3",
     "eslint": "~7",
     "eslint-plugin-vue": "~7",
     "postcss": "~8.3",
     "postcss-nesting": "~8.0",
     "tailwindcss": "~2.2",
     "typescript": "~4.3",
-    "vite": "~2.4",
+    "vite": "~2.5",
     "wait-on": "~6.0"
   }
 }

@@ -1,5 +1,7 @@
 # Changelog
 
+## 1.5.1 (2021-08-17)
+- Chore: bump deps; upgraded Vite to 2.5 and Cypress to 8.3.
 ## 1.5.0 (2021-08-12)
 - Feat: Upgraded to Vue 3.2 w/ new `script setup` sugar. This is now pre-configured in Vite settings. (Make sure to use Volar extension to take full advantage of it!)
 - Chore: bump deps.
