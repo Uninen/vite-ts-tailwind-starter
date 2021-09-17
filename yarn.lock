@@ -516,11 +516,6 @@
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.6.2.tgz#40dfe314cff610d4dd027a0b4ea2a93a257f3fc9"
   integrity sha512-Pf+dqkT4pWPfziPm51VtDXsPwE74CEGRiK6Vgm5EDBewHw1EgcxG7V2ZI/Yqj5gcDy5nVtjgx0AbsTL+F3gddg==
 
-"@volar/experimental@^0.27.13":
-  version "0.27.13"
-  resolved "https://registry.yarnpkg.com/@volar/experimental/-/experimental-0.27.13.tgz#1dada714db51f2cfa406596836f29800433f5ab3"
-  integrity sha512-PH3Y3zxPtUkqNiEnfDBPuq4cQ5GlFRzrwkRJapgxTlWYyIuEpPO/Q6ZmgVkaLFqenduUOdkXAKD/YMFyfaLjfA==
-
 "@vue/compiler-core@3.2.11", "@vue/compiler-core@^3.0.0", "@vue/compiler-core@^3.0.1", "@vue/compiler-core@^3.0.2":
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.11.tgz#10af3777dba303ee7aae668029f131cb90391bee"
