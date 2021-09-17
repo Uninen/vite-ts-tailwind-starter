@@ -125,6 +125,16 @@
         development topics on my <a href="https://til.unessa.net/">Today I Learned</a> site
       </li>
     </ul>
+
+    <h2>Contributing</h2>
+
+    <p>
+      Contributions are welcome! Please follow
+      <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">
+        the code of conduct
+      </a>
+      when interacting with others.
+    </p>
   </BaseTemplate>
 </template>
 <script setup lang="ts">
