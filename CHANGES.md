@@ -2,6 +2,8 @@
 
 ## 1.6.0 (2021-09-17)
 - Feat: upgraded TypeScript to 4.4
+- Docs: documented code coverage situation under Vite, added more general docs to homepage.
+- Fix: fixed eslint configuration issue.
 - Chore: bump deps.
 
 ## 1.5.1 (2021-08-17)

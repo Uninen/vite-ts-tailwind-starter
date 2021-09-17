@@ -13,4 +13,10 @@ module.exports = {
     'space-before-function-paren': ['error', 'never'],
     'comma-dangle': ['error', 'only-multiline'],
   },
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly',
+  },
 }
