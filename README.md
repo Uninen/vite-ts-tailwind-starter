@@ -1,4 +1,4 @@
-# Vite Typescript + Tailwind Starter
+# Vite + Vue 3 + Typescript + Tailwind Starter
 
 Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
 
@@ -15,7 +15,7 @@ A [detailed changelog](./CHANGES.md) is available.
 - Vue 3
 - **Fully typed** [Vuex 4](https://next.vuex.vuejs.org/) store
 - Routing using [vue-router 4](https://next.router.vuejs.org/)
-- TypeScript 4.3
+- TypeScript 4.4
 - Tailwind CSS 2.2 w/ JIT compiler + following plugins preinstalled
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/line-clamp`
