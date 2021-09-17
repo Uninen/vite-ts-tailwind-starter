@@ -30,6 +30,11 @@
       Using <a href="https://github.com/johnsoncodehk/volar">Volar extension for VSCode</a> is
       recommended to take full advance of the new script setup sugar and full TypeScript support in
       Vue SFC templates. (This is totally optional but recommended as it results much better DX!)
+      See
+      <a href="https://v3.vuejs.org/api/sfc-tooling.html#ide-support"
+        >official IDE Support documentation</a
+      >
+      for more details.
     </p>
 
     <h4>Install dependencies:</h4>
@@ -110,6 +115,16 @@
       which would probably sort code coverage as well. For now, you should either build whatever
       custom pipeline you need manually. If you have a smart solution for this, PRs welcome!
     </p>
+
+    <h2>Elsewhere</h2>
+
+    <ul>
+      <li>Follow <a href="https://twitter.com/uninen">@Uninen on Twitter</a></li>
+      <li>
+        Lots of continuously updating learnings from Vite / Vue / TypeScript and other Web
+        development topics on my <a href="https://til.unessa.net/">Today I Learned</a> site
+      </li>
+    </ul>
   </BaseTemplate>
 </template>
 <script setup lang="ts">

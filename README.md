@@ -92,7 +92,7 @@ yarn build
 
 ## Elsewhere
 
-- Read my continuously updating learnings from Vite / Vue / TypeScript and other development topics from my [Today I Learned site](https://til.unessa.net/)
+- Read my continuously updating learnings from Vite / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)
 - [Follow @uninen](https://twitter.com/uninen) on Twitter
 
 ## Contributing
