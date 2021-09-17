@@ -1,12 +1,19 @@
 # Changelog
 
+## 1.6.0 (2021-09-17)
+- Feat: upgraded TypeScript to 4.4
+- Chore: bump deps.
+
 ## 1.5.1 (2021-08-17)
 - Chore: bump deps; upgraded Vite to 2.5 and Cypress to 8.3.
+
 ## 1.5.0 (2021-08-12)
 - Feat: Upgraded to Vue 3.2 w/ new `script setup` sugar. This is now pre-configured in Vite settings. (Make sure to use Volar extension to take full advantage of it!)
 - Chore: bump deps.
+
 ## 1.4.1 (2021-08-04)
 - Chore: Renamed master branch from trunk to main to be more developer-friendly. 
+
 ## 1.4.0 (2021-08-04)
 - Feat: Added `vue-router` (it's easier to remove things than to add them in) and a couple of demo pages.
 - Feat: Added `vercel.json` that works with `vue-router`. You can now publish this template on Vercel and everything Just Works.
