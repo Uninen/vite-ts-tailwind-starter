@@ -26,8 +26,6 @@
     "@vue/compiler-sfc": "~3.2",
     "@vue/eslint-config-standard": "~6.1",
     "@vue/eslint-config-typescript": "~7.0",
-    "@vuedx/typecheck": "~0.7",
-    "@vuedx/typescript-plugin-vue": "~0.7",
     "autoprefixer": "~10.3",
     "cypress": "~8.4",
     "eslint": "~7",
