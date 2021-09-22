@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0 (2021-09-22)
+- Feat: added proper TypeScript support for Cypress. Thank You @ItsNothingPersonal for the contribution. (#182)
+- Chore: bump deps. (Includes new `@vitejs/plugin-vue` which adds support for TS in template expressions.)
+
 ## 1.6.0 (2021-09-17)
 - Feat: upgraded TypeScript to 4.4
 - Docs: documented code coverage situation under Vite, added more general docs to homepage.

@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,7 +22,7 @@
     "@tailwindcss/typography": "~0.4",
     "@typescript-eslint/eslint-plugin": "~4",
     "@typescript-eslint/parser": "~4",
-    "@vitejs/plugin-vue": "~1.6",
+    "@vitejs/plugin-vue": "~1.9",
     "@vue/compiler-sfc": "~3.2",
     "@vue/eslint-config-standard": "~6.1",
     "@vue/eslint-config-typescript": "~7.0",
