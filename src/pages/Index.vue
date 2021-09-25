@@ -73,6 +73,19 @@
 ): Promise&lt;void&gt;</pre
     >
 
+    <h3>Typed ENV Variables</h3>
+
+    <p>
+      Vite exposes a special <code>import.meta.env</code> object for ENV variables (see
+      <a href="https://vitejs.dev/guide/env-and-mode.html">official docs</a>). This template extends
+      that object and adds custom typed variables which you can easily use and modify to your needs.
+    </p>
+
+    <p>
+      See <code>vite.config.js</code> and <code>src/env.d.ts</code> for the configuration and
+      <code>src/pages/BaseTemplate.vue</code> for usage example.
+    </p>
+
     <h3>Custom `firefox` variant for Tailwind</h3>
 
     <p>

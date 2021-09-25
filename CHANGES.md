@@ -1,7 +1,14 @@
 # Changelog
 
+
+## 1.7.1 (2021-09-25)
+
+- Fix: fixed `import.meta.env` types
+- Docs: documented `import.meta.env`
+- Chore: bump deps.
+
 ## 1.7.0 (2021-09-22)
-- Feat: added proper TypeScript support for Cypress. Thank You @ItsNothingPersonal for the contribution. (#182)
+- Feat: added proper TypeScript support for Cypress. Thank You [@ItsNothingPersonal](https://github.com/ItsNothingPersonal) for the contribution. (#182)
 - Chore: bump deps. (Includes new `@vitejs/plugin-vue` which adds support for TS in template expressions.)
 
 ## 1.6.0 (2021-09-17)
