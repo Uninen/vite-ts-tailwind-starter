@@ -76,7 +76,7 @@
     <h3>Typed ENV Variables</h3>
 
     <p>
-      Vite exposes a special <code>import.meta.env</code> object for ENV variables (see
+      Vite exposes a special <code>meta.env</code> object for ENV variables (see
       <a href="https://vitejs.dev/guide/env-and-mode.html">official docs</a>). This template extends
       that object and adds custom typed variables which you can easily use and modify to your needs.
     </p>
