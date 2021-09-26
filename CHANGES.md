@@ -1,9 +1,13 @@
 # Changelog
 
+## 1.7.2 (2021-09-26)
+
+- Fix: fixed and documented an issue w/ `import.meta.env` types
+- Chore: bump deps.
 
 ## 1.7.1 (2021-09-25)
 
-- Fix: fixed `import.meta.env` types
+- Fix: fixed IntelliSense for `import.meta.env` types
 - Docs: documented `import.meta.env`
 - Chore: bump deps.
 

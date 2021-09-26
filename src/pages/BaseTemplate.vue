@@ -1,7 +1,7 @@
 <template>
   <header class="container max-w-screen-sm py-8 mx-auto">
     <h1 class="mb-0 font-sans text-4xl font-black">
-      Vite + Vue 3 + TypeScript + Tailwind + Cypress Starter Template v{{ APP_VERSION }}
+      Vite + Vue 3 + TypeScript + Tailwind + Cypress Starter Template v{{ VERSION }}
     </h1>
     <p class="pt-2 text-xl text-gray-500">
       Opinionated, production ready template for Vite and Vue.
@@ -29,7 +29,7 @@
     <p>
       Vite-ts-tailwind-starter by
       <a class="underline" href="https://twitter.com/uninen">@Uninen</a> &copy; 2020-{{ thisYear }}.
-      <template v-if="BUILD_TIME"> Site built {{ BUILD_TIME.toLocaleDateString() }}. </template>
+      <template v-if="BUILD_DATE"> Site built {{ BUILD_DATE.toLocaleDateString() }}. </template>
       <template v-else> Development mode. </template>
     </p>
   </footer>
@@ -59,7 +59,9 @@ useHead({
   ],
 })
 
-const BUILD_TIME = new Date(Number(import.meta.env.VITE_APP_BUILD_EPOCH))
-const APP_VERSION = import.meta.env.VITE_APP_VERSION
+const VERSION = import.meta.env.VITE_APP_VERSION
+const BUILD_DATE = import.meta.env.VITE_APP_BUILD_EPOCH
+  ? new Date(Number(import.meta.env.VITE_APP_BUILD_EPOCH))
+  : undefined
 const thisYear = new Date().getFullYear()
 </script>
