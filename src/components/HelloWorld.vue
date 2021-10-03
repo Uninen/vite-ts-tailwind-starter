@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>{{ msg }}</h2>
+    <h2>{{ props.msg }}</h2>
     <button class="px-3 py-2 border border-gray-300 rounded-md shadow" @click="increment">
       count is: {{ count }}
     </button>
