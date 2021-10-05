@@ -8,7 +8,7 @@ This template is **practical** and **batteries included** but not overly complex
 
 Includes plenty of **examples and documentation** of how to do things but **minimal cruft** to delete to get you going.
 
-Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) for full docs. A [detailed changelog](./CHANGES.md) is available.
+Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) for full docs. A [detailed changelog](./CHANGES.md) is available. This repository is also [mirrored on GitLab](https://gitlab.com/uninen/vite-ts-tailwind-starter).
 
 ## Features
 

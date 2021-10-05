@@ -20,7 +20,7 @@
       <li>Vue-friendly Eslint and Prettier configuration - use as is or tweak to your liking</li>
       <li>Alias <code>@</code> to <code>project_root/src</code></li>
       <li>Predefined and typed global variables</li>
-      <li>Cypress.io e2e tests (configured similarly to vue-cli)</li>
+      <li>Cypress.io e2e and component tests preconfigured (similarly to vue-cli)</li>
       <li>
         Github Workflows and Gitlab CI preconfigured to run e2e and component tests automatically on
         every push
