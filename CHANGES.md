@@ -2,6 +2,7 @@
 
 ## Next
 - Feat: added configuration and example for Cypress component testing. Thank You [@ItsNothingPersonal](https://github.com/ItsNothingPersonal) for the contribution. (#188)
+- Tooling: removed `space-before-function-paren`eslint configuration (which now changes default formatting to always include a space before function parenthesis) as Prettier won't respect it since version 2.0. [Read this blog post](https://joshuatz.com/posts/2020/prettier-function-parenthesis-spacing-opinionated-is-key/) if you want to keep the old behavior.
 
 ## 1.7.2 (2021-09-26)
 
