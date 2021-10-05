@@ -73,7 +73,7 @@
 
     <p>See <code>package.json</code> for all available commands.</p>
 
-    <h2>Generic Notes</h2>
+    <h2>Notes and further documentation</h2>
 
     <h3>Typed Vuex Actions</h3>
 
@@ -133,14 +133,18 @@
 
     <h3>Code Coverage</h3>
 
+    <p
+      >TL;DR: due to Vite and esbuild design decisions and ongoing work in this
+      area, code coverage is not yet added to this template.</p
+    >
+
     <p>
       I have a fully configured Vue 3 + TypeScript + Cypress + Coverage
-      reporting + GitLab and GitHub CI (currently unmaintained) template project
-      that uses `vue-cli` available at
+      reporting + GitLab and GitHub CI `vue-cli` template project available at
       <a href="https://gitlab.com/uninen/vue-cli-template"
         >https://gitlab.com/uninen/vue-cli-template</a
-      >. That's a nice POC that proper coverage configuration is possible and it
-      works automatically in CI. But. This setup doesn't work with Vite.
+      >. That's a real world example of proper coverage configuration that works
+      automatically in CI. But. This setup doesn't work with Vite.
     </p>
 
     <p>

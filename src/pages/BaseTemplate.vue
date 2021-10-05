@@ -6,7 +6,7 @@
       }}
     </h1>
     <p class="pb-4 text-xl leading-relaxed tracking-wide text-gray-700 md:pb-6">
-      Opinionated, production ready template for Vite and Vue
+      Opinionated, production ready template for Vite and Vue 3
     </p>
   </header>
   <main class="container mx-auto">
