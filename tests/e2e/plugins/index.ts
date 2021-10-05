@@ -1,6 +1,9 @@
-// import { startDevServer } from '@cypress/vite-dev-server'
+import { startDevServer } from '@cypress/vite-dev-server'
 
-module.exports = (on, config) => {
-  //   on('dev-server:start', async (options) => startDevServer({ options }))
-  //   return config
+export default function(
+  on: Cypress.PluginEvents,
+  config: Cypress.PluginConfigOptions
+): void | Cypress.ConfigOptions | Promise<Cypress.ConfigOptions> {
+  on('dev-server:start', async(options: Cypress.DevServerConfig) => startDevServer({ options }))
+  return config
 }

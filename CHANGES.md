@@ -1,5 +1,8 @@
 # Changelog
 
+## Next
+- Feat: added configuration and example for Cypress component testing. Thank You [@ItsNothingPersonal](https://github.com/ItsNothingPersonal) for the contribution. (#188)
+
 ## 1.7.2 (2021-09-26)
 
 - Fix: fixed and documented an issue w/ `import.meta.env` types

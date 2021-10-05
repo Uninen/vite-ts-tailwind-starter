@@ -58,6 +58,9 @@ jobs:
         run: yarn --frozen-lockfile
 
       ## Test
+      - name: Run component tests
+        run: yarn test:ci-components
+
       - name: Start Vite devserver
         run: yarn start
 

@@ -32,11 +32,14 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
 - Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://v3.vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
+- Cypress.io component tests
 - GitHub workflows
   - Dependabot
   - Automated e2e tests
+  - Automated component tests
 - GitLab CI
- 
+  - Automated e2e tests
+  - Automated component tests 
 ## Elsewhere
 
 - Read my continuously updating learnings from Vite / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)

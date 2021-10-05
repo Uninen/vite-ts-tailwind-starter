@@ -7,7 +7,9 @@
     "preview": "vite build && vite preview",
     "start": "yarn dev & wait-on tcp:3000 -v",
     "test": "cypress open",
-    "test:ci": "cypress run --headless"
+    "test-components": "cypress open-ct",
+    "test:ci": "cypress run --headless",
+    "test:ci-components": "cypress run-ct"
   },
   "dependencies": {
     "@vueuse/head": "~0.6",
@@ -16,6 +18,8 @@
     "vuex": "~4.0"
   },
   "devDependencies": {
+    "@cypress/vite-dev-server": "~2.1",
+    "@cypress/vue": "~3.0",
     "@tailwindcss/aspect-ratio": "~0.2",
     "@tailwindcss/forms": "~0.3",
     "@tailwindcss/line-clamp": "~0.2",
