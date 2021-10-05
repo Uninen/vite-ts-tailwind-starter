@@ -65,15 +65,15 @@
     tunnel-agent "^0.6.0"
     uuid "^8.3.2"
 
-"@cypress/vite-dev-server@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@cypress/vite-dev-server/-/vite-dev-server-2.1.0.tgz#2dcf8173f1a4c273ac963d9ec15e3cf5ee3034e5"
-  integrity sha512-tItMwUB0BIPl8Uqai+zrqmqaWHPPR/r9mGHDw+q+8y7xLaM08rOWgUYiTwR8IptEIwz4YGnxDkO30i+kB49S6Q==
+"@cypress/vite-dev-server@~2.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@cypress/vite-dev-server/-/vite-dev-server-2.1.1.tgz#39e8942a438be2f3439920b0f6e91c0483fd60a7"
+  integrity sha512-/1joEKftc2CxMeuNPpU4eYkcEsNTKdvXifNgy3ukgX9z5xEDtSwQ4GryQDic9coq8vlw2xbaUpAh435wkJL9Vw==
   dependencies:
     debug "^4.3.2"
     get-port "^5.1.1"
 
-"@cypress/vue@^3.0.3":
+"@cypress/vue@~3.0":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@cypress/vue/-/vue-3.0.3.tgz#4d5c8a52233fee2714697cbc37fdac33fd4fa29f"
   integrity sha512-Im8xCQDt4Dr4mcCaweNGCF+O5gNMZAdMlzQlkbhkER9YnJEVD9+ZWecJOJLmUUJPBSj7AMyz7OX82yldPjUIrA==

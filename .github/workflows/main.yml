@@ -59,7 +59,7 @@ jobs:
 
       ## Test
       - name: Run component tests
-        run: yarn test:components-ci        
+        run: yarn test:ci-components
 
       - name: Start Vite devserver
         run: yarn start

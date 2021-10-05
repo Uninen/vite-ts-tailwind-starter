@@ -38,7 +38,8 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - Automated e2e tests
   - Automated component tests
 - GitLab CI
- 
+  - Automated e2e tests
+  - Automated component tests 
 ## Elsewhere
 
 - Read my continuously updating learnings from Vite / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)

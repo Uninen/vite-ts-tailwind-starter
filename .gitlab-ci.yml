@@ -18,7 +18,7 @@ cache:
 test:
   stage: test
   image:
-    name: cypress/included:7.0.0
+    name: cypress/included:8.5.0
     entrypoint: ['']
   script:
     # Uncomment for debugging
@@ -26,6 +26,7 @@ test:
     - yarn cache dir
     - cd -- "$CI_PROJECT_DIR"
     - yarn --frozen-lockfile
+    - yarn test:ci-components
     - yarn start
     - yarn test:ci
   coverage: '/Lines\s+:\s(\d+.?\d+)%/'

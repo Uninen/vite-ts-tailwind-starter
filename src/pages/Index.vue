@@ -21,7 +21,10 @@
       <li>Alias <code>@</code> to <code>project_root/src</code></li>
       <li>Predefined and typed global variables</li>
       <li>Cypress.io e2e tests (configured similarly to vue-cli)</li>
-      <li>Github Workflows and Gitlab CI preconfigured to run tests automatically on every push</li>
+      <li>
+        Github Workflows and Gitlab CI preconfigured to run e2e and component tests automatically on
+        every push
+      </li>
     </ul>
 
     <h2>Project setup and usage</h2>
