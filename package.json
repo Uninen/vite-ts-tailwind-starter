@@ -41,7 +41,7 @@
     "postcss-nesting": "~8.0",
     "tailwindcss": "~2.2",
     "typescript": "~4.4",
-    "vite": "~2.5",
+    "vite": "~2.6",
     "wait-on": "~6.0"
   }
 }
