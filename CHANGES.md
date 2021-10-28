@@ -1,7 +1,7 @@
 # Changelog
 
 ## 1.9.0 (2021-10-28)
-- Fix: removed unneeded code ([#193](https://github.com/Uninen/vite-ts-tailwind-starter/issues/193))
+- Fix: removed unnecessary code ([#193](https://github.com/Uninen/vite-ts-tailwind-starter/issues/193))
 - Chore: bump deps.
 
 ## 1.8.0 (2021-10-05)
