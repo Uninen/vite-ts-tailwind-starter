@@ -1,7 +1,7 @@
 import { mount } from '@cypress/vue'
 import HelloWorld from './HelloWorld.vue'
 
-it('Hello World', () => {
+it('Passes msg prop correctly', () => {
   mount(HelloWorld, {
     propsData: {
       msg: 'Hello World',

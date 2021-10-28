@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.0 (2021-10-28)
+- Fix: removed unnecessary code ([#193](https://github.com/Uninen/vite-ts-tailwind-starter/issues/193))
+- Chore: bump deps.
+
 ## 1.8.0 (2021-10-05)
 - Feat: added configuration and example for Cypress component testing. Thank You [@ItsNothingPersonal](https://github.com/ItsNothingPersonal) for the contribution. (#188)
 - Tooling: replaced `.prettierrc` with `eslint-config-prettier` to consolidate tool configurations.
