@@ -1,9 +1,7 @@
 <template>
   <header class="container px-4 mx-auto mt-6 prose-sm md:px-6 md:prose">
-    <h1 class="!mb-0 font-sans text-4xl font-black">
-      Vite + Vue 3 + TypeScript + Tailwind + Cypress Starter Template v{{ VERSION }}
-    </h1>
-    <p class="pb-4 text-xl leading-relaxed tracking-wide text-gray-700 md:pb-6">
+    <h1>Vite + Vue 3 + TypeScript + Tailwind + Cypress Starter Template v{{ VERSION }}</h1>
+    <p class="pb-4 text-xl leading-relaxed tracking-wide text-gray-700">
       Opinionated, production ready template for Vite and Vue 3
     </p>
     <div
