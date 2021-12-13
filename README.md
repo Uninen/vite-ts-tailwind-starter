@@ -12,11 +12,11 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 
 ## Features
 
-- Vue 3
+- Vue 3.2
 - **Fully typed** [Vuex 4](https://next.vuex.vuejs.org/) store
 - Routing using [vue-router 4](https://next.router.vuejs.org/)
-- TypeScript 4.4
-- Tailwind CSS 2.2 w/ JIT compiler + following plugins preinstalled
+- TypeScript 4.5
+- Tailwind CSS 3.0 w/ following plugins preinstalled:
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/line-clamp`
   - `@tailwindcss/typography`

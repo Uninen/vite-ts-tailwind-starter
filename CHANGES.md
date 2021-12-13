@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.10.0 (2021-12-13)
+- Feat: upgraded Tailwind to version 3.0.
+- Docs: documented more package versions.
+- Chore: bump deps.
+
 ## 1.9.0 (2021-10-28)
 - Fix: removed unnecessary code ([#193](https://github.com/Uninen/vite-ts-tailwind-starter/issues/193))
 - Chore: bump deps.
