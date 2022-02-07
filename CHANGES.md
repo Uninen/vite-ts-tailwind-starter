@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.12.0 (2021-02-07)
+
+Vue 3 is now the default version -- congrats for the Vue team and the community!
+
+- Chore: bump deps.
+- Docs: upgraded all links in docs to point to the new official docs.
+
 ## 1.11.0 (2021-12-13)
 - Chore: bump deps.
 

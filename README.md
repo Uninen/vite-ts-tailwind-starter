@@ -13,8 +13,8 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 ## Features
 
 - Vue 3.2
-- **Fully typed** [Vuex 4](https://next.vuex.vuejs.org/) store
-- Routing using [vue-router 4](https://next.router.vuejs.org/)
+- **Fully typed** [Vuex 4](https://vuex.vuejs.org/) store
+- Routing using [vue-router 4](https://router.vuejs.org/)
 - TypeScript 4.5
 - Tailwind CSS 3.0 w/ following plugins preinstalled:
   - `@tailwindcss/aspect-ratio`
@@ -30,7 +30,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 - Predefined and fully typed global variables:
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
-- Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://v3.vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
+- Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - Cypress.io component tests
 - GitHub workflows

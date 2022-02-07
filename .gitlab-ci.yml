@@ -18,7 +18,7 @@ cache:
 test:
   stage: test
   image:
-    name: cypress/included:9.3.0
+    name: cypress/included:9.4.0
     entrypoint: ['']
   script:
     # Uncomment for debugging

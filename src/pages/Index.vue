@@ -33,7 +33,7 @@
       is recommended to take full advance of the new script setup sugar and full TypeScript support
       in Vue SFC templates. (This is totally optional but recommended as it results much better DX!)
       See
-      <a href="https://v3.vuejs.org/api/sfc-tooling.html#ide-support"
+      <a href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"
         >official IDE Support documentation</a
       >
       for more details.
