@@ -5,6 +5,7 @@
 This release is dedicated to the brave people of Ukraine. Слава Україні! 🇺🇦
 
 - Feat: replaced Vuex with Pinia store.
+- Feat: added Vitest for unit tests.
 - Tooling: simplified and improved the GitHub Actions pipeline.
 - Docs: added Code of Conduct document.
 
