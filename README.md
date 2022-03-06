@@ -13,7 +13,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 ## Features
 
 - Vue 3.2
-- **Fully typed** [Vuex 4](https://vuex.vuejs.org/) store
+- Pinia store (fully typed Vuex store is available up to version 1.13)
 - Routing using [vue-router 4](https://router.vuejs.org/)
 - TypeScript 4.6
 - Tailwind CSS 3 w/ following plugins preinstalled:
@@ -46,4 +46,4 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 
 ## Contributing
 
-Contributions are welcome! Please follow the [code of conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) when interacting with others.
+Contributions are welcome! Please follow the [code of conduct](./CODE_OF_CONDUCT.md) when interacting with others.
