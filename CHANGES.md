@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13.0 (2022-03-06)
+
+This is the last version using Vuex for storage.
+
+- Chore: bumped deps.
 ## 1.12.0 (2021-02-07)
 
 Vue 3 is now the default version -- congrats for the Vue team and the community!

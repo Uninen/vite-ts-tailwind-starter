@@ -7,7 +7,7 @@
   "supportFile": "tests/e2e/support/index.ts",
   "videosFolder": "tests/e2e/videos",
   "component": {
-    "componentFolder": "src",
+    "componentFolder": "tests/component",
     "testFiles": "**/*spec.ts"
   }
 }
