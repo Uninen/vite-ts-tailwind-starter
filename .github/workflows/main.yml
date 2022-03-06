@@ -2,9 +2,23 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'yarn.lock'
+      - '.github/workflows/main.yml'
   pull_request:
-    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'yarn.lock'
+      - '.github/workflows/main.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
 
 jobs:
   ci:
@@ -12,50 +26,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      ## Yarn dir
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      ## Cache yarn
-      - name: Cache yarn
-        uses: actions/cache@v2
-        id: cache-yarn-cache2
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn2-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn2-
-
-      ## Cache node_modules
-      - name: Cache node_modules
-        id: cache-node-modules2
-        uses: actions/cache@v2
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ matrix.node-version }}-nodemodules2-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-nodemodules2-
-
-      ## Cache Cypress
-      - name: Cache Cypress
-        id: cache-cypress2
-        uses: actions/cache@v2
-        with:
-          path: /home/runner/.cache/Cypress
-          key: ${{ runner.os }}-${{ matrix.node-version }}-cypress2-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-cypress2-
-
-      ## Dependencies
-      - name: Install Dependencies
-        if: |
-          steps.cache-yarn-cache.outputs.cache-hit != 'true' ||
-          steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
+      - uses: bahmutov/npm-install@v1
 
       ## Test
+      - name: Run unit tests
+        run: yarn test:ci
+
       - name: Run component tests
         run: yarn test:ci-components
 
@@ -63,7 +39,7 @@ jobs:
         run: yarn start
 
       - name: Run tests
-        run: yarn test:ci
+        run: yarn test:ci-e2e
 
       - name: Upload artifacts on fail
         uses: actions/upload-artifact@v2

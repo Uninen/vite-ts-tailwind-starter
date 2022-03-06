@@ -1,25 +1,29 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "1.13.0",
+  "version": "2.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite build && vite preview",
     "start": "yarn dev & wait-on tcp:3000 -v",
-    "test": "cypress open",
+    "test": "vitest",
+    "test-e2e": "cypress open",
     "test-components": "cypress open-ct",
-    "test:ci": "cypress run --headless",
+    "test:ci": "vitest",
+    "test:ci-e2e": "cypress run --headless",
     "test:ci-components": "cypress run-ct"
   },
   "dependencies": {
     "@vueuse/head": "~0.7",
+    "pinia": "~2.0",
+    "vitest": "^0.5.9",
     "vue": "~3.2",
-    "vue-router": "~4.0",
-    "vuex": "~4.0"
+    "vue-router": "~4.0"
   },
   "devDependencies": {
     "@cypress/vite-dev-server": "~2.2",
     "@cypress/vue": "~3.1",
+    "@pinia/testing": "^0.0.9",
     "@tailwindcss/aspect-ratio": "~0.4",
     "@tailwindcss/forms": "~0.5",
     "@tailwindcss/line-clamp": "~0.3",

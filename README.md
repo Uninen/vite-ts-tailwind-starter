@@ -13,7 +13,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 ## Features
 
 - Vue 3.2
-- **Fully typed** [Vuex 4](https://vuex.vuejs.org/) store
+- Pinia store (fully typed Vuex store is available up to version 1.13)
 - Routing using [vue-router 4](https://router.vuejs.org/)
 - TypeScript 4.6
 - Tailwind CSS 3 w/ following plugins preinstalled:
@@ -30,15 +30,18 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
 - Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
+- Vitest unit tests
 - Cypress.io e2e tests (configured similarly to `vue-cli`)
 - Cypress.io component tests
 - GitHub workflows
   - Dependabot
-  - Automated e2e tests
+  - Automated unit tests
   - Automated component tests
-- GitLab CI
   - Automated e2e tests
+- GitLab CI
+  - Automated unit tests
   - Automated component tests 
+  - Automated e2e tests
 ## Elsewhere
 
 - Read my continuously updating learnings from Vite / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)
@@ -46,4 +49,4 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 
 ## Contributing
 
-Contributions are welcome! Please follow the [code of conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) when interacting with others.
+Contributions are welcome! Please follow the [code of conduct](./CODE_OF_CONDUCT.md) when interacting with others.
