@@ -18,5 +18,6 @@
       "rangeStrategy": "replace"
     }
   ],
-  "timezone": "Europe/Helsinki"
+  "timezone": "Europe/Helsinki",
+  "dependencyDashboard": false
 }
