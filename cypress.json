@@ -9,5 +9,9 @@
   "component": {
     "componentFolder": "tests/component",
     "testFiles": "**/*spec.ts"
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
   }
 }

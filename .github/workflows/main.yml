@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  ci:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,6 +36,7 @@ jobs:
         run: |
           yarn start
           yarn test:ci-e2e
+          sleep 2
           yarn test:ci-components
 
       - name: Upload artifacts on fail
