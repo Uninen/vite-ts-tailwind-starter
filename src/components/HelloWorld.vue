@@ -7,6 +7,7 @@
 </template>
 
 <script setup lang="ts">
+// useStore, and computed are automatically imported. See vite.config.ts for details.
 const store = useStore()
 const count = computed(() => store.count)
 const props = defineProps<{

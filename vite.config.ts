@@ -3,6 +3,7 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
 import pkg from './package.json'
 
 process.env.VITE_APP_VERSION = pkg.version
@@ -31,6 +32,10 @@ export default defineConfig({
       eslintrc: {
         enabled: true,
       },
+    }),
+    Components({
+      dirs: ['src/components'],
+      extensions: ['vue'],
     }),
   ],
   resolve: {

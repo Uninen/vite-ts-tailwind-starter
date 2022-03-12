@@ -3,7 +3,10 @@
 ## 2.1.0 (2022-03-12)
 
 - Feat: added `unplugin-auto-import` for automatic package imports.
+- Feat: added `unplugin-vue-components` for automatic component imports.
 - Feat: added `cssnano` for minimizing production CSS.
+- Feat: added security plugin for ESlint.
+- Fix: fixed Tailwind config to v3 form.
 - Chore: bumped deps.
 
 ## 2.0.0 (2022-03-06)
