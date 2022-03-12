@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0 (2022-03-12)
+
+- Feat: added `unplugin-auto-import` for automatic package imports.
+- Chore: bumped deps.
+
 ## 2.0.0 (2022-03-06)
 
 This release is dedicated to the brave people of Ukraine. Слава Україні! 🇺🇦
