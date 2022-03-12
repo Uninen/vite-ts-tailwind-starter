@@ -32,14 +32,11 @@ jobs:
       - name: Run unit tests
         run: yarn test:ci
 
-      - name: Run component tests
-        run: yarn test:ci-components
-
-      - name: Start Vite devserver
-        run: yarn start
-
-      - name: Run tests
-        run: yarn test:ci-e2e
+      - name: Run Cypress tests
+        run: |
+          yarn start
+          yarn test:ci-e2e
+          yarn test:ci-components
 
       - name: Upload artifacts on fail
         uses: actions/upload-artifact@v3
