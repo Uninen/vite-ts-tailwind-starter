@@ -2,10 +2,7 @@ const plugin = require('tailwindcss/plugin')
 // const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: {
-    enabled: process.env.NODE_ENV === 'production',
-    content: ['./index.html', './src/**/*.{vue,ts}'],
-  },
+  content: ['./index.html', './src/**/*.{vue,ts}'],
   // theme: {
   //   extend: {
   //     // here's how to extend fonts if needed

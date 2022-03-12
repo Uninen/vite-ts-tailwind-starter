@@ -17,13 +17,13 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 - Routing using [vue-router 4](https://router.vuejs.org/)
 - TypeScript 4.6
 - Automatic package imports w/ [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
-- Tailwind CSS 3 w/ following plugins preinstalled:
+- Tailwind CSS 3 w/ following plugins and configuration preinstalled:
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/line-clamp`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
   - `firefox`-variant
-- PostCSS 8 w/ `postcss-nesting` plugin
+- PostCSS 8 w/ `postcss-nesting` plugin and `cssnano` for minimizing production CSS
 - Eslint
 - Prettier
 - Alias `@` to `<project_root>/src`

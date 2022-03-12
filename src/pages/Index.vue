@@ -58,7 +58,7 @@
       <ul>
         <li>Pinia store (fully typed Vuex store available in version 1.13)</li>
         <li>Routing using vue-router</li>
-        <li>TailwindCSS w/ JIT-mode, purge, and plugins pre-configured</li>
+        <li>TailwindCSS w/ JIT-mode, purge, plugins, and production minimization pre-configured</li>
         <li>Vue-friendly Eslint and Prettier configuration - use as is or tweak to your liking</li>
         <li>Alias <code>@</code> to <code>project_root/src</code></li>
         <li>Predefined and typed global variables</li>

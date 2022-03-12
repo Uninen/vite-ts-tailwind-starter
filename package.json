@@ -33,6 +33,7 @@
     "@vue/eslint-config-standard": "~6.1",
     "@vue/eslint-config-typescript": "~10",
     "autoprefixer": "~10",
+    "cssnano": "~5.1",
     "cypress": "~9.5",
     "eslint": "~8.11",
     "eslint-config-prettier": "~8.5",
