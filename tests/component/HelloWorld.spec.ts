@@ -5,9 +5,10 @@ import HelloWorld from '../../src/components/HelloWorld.vue'
 
 describe('Basic demo', () => {
   before(() => {
+    // An attempt to fix https://github.com/cypress-io/cypress/issues/4925
     setTimeout(() => {
       console.log('waiting for CI to catch up')
-    }, 2000)
+    }, 1000)
   })
 
   it('Passes msg prop correctly', () => {
