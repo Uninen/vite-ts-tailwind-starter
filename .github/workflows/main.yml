@@ -25,19 +25,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - uses: bahmutov/npm-install@v1
 
-      ## Test
       - name: Run unit tests
         run: yarn test:ci
 
-      - name: Run Cypress tests
+      - name: Run component tests
+        run: yarn test:ci-components
+
+      - name: Run e2e tests
         run: |
           yarn start
           yarn test:ci-e2e
-          sleep 2
-          yarn test:ci-components
 
       - name: Upload artifacts on fail
         uses: actions/upload-artifact@v3
