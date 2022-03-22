@@ -1,5 +1,9 @@
 # Changelog
 
+## Next
+
+- Feat: added `"allowSyntheticDefaultImports": true` to `tsconfig.json`
+
 ## 2.1.0 (2022-03-12)
 
 - Feat: added `unplugin-auto-import` for automatic package imports.
@@ -23,6 +27,7 @@ This release is dedicated to the brave people of Ukraine. Слава Украї�
 This is the last version using Vuex for storage.
 
 - Chore: bumped deps.
+
 ## 1.12.0 (2021-02-07)
 
 Vue 3 is now the default version -- congrats for the Vue team and the community!
@@ -31,18 +36,22 @@ Vue 3 is now the default version -- congrats for the Vue team and the community!
 - Docs: upgraded all links in docs to point to the new official docs.
 
 ## 1.11.0 (2021-12-13)
+
 - Chore: bump deps.
 
 ## 1.10.0 (2021-12-13)
+
 - Feat: upgraded Tailwind to version 3.0.
 - Docs: documented more package versions.
 - Chore: bump deps.
 
 ## 1.9.0 (2021-10-28)
+
 - Fix: removed unnecessary code ([#193](https://github.com/Uninen/vite-ts-tailwind-starter/issues/193))
 - Chore: bump deps.
 
 ## 1.8.0 (2021-10-05)
+
 - Feat: added configuration and example for Cypress component testing. Thank You [@ItsNothingPersonal](https://github.com/ItsNothingPersonal) for the contribution. (#188)
 - Tooling: replaced `.prettierrc` with `eslint-config-prettier` to consolidate tool configurations.
 - Tooling: removed `space-before-function-paren`eslint configuration (which now changes default formatting to always include a space before function parenthesis) as Prettier won't respect it since version 2.0. [Read this blog post](https://joshuatz.com/posts/2020/prettier-function-parenthesis-spacing-opinionated-is-key/) if you want to keep the old behavior.
@@ -62,26 +71,32 @@ Vue 3 is now the default version -- congrats for the Vue team and the community!
 - Chore: bump deps.
 
 ## 1.7.0 (2021-09-22)
+
 - Feat: added proper TypeScript support for Cypress. Thank You [@ItsNothingPersonal](https://github.com/ItsNothingPersonal) for the contribution. (#182)
 - Chore: bump deps. (Includes new `@vitejs/plugin-vue` which adds support for TS in template expressions.)
 
 ## 1.6.0 (2021-09-17)
+
 - Feat: upgraded TypeScript to 4.4
 - Docs: documented code coverage situation under Vite, added more general docs to homepage.
 - Fix: fixed eslint configuration issue.
 - Chore: bump deps.
 
 ## 1.5.1 (2021-08-17)
+
 - Chore: bump deps; upgraded Vite to 2.5 and Cypress to 8.3.
 
 ## 1.5.0 (2021-08-12)
+
 - Feat: Upgraded to Vue 3.2 w/ new `script setup` sugar. This is now pre-configured in Vite settings. (Make sure to use Volar extension to take full advantage of it!)
 - Chore: bump deps.
 
 ## 1.4.1 (2021-08-04)
-- Chore: Renamed master branch from trunk to main to be more developer-friendly. 
+
+- Chore: Renamed master branch from trunk to main to be more developer-friendly.
 
 ## 1.4.0 (2021-08-04)
+
 - Feat: Added `vue-router` (it's easier to remove things than to add them in) and a couple of demo pages.
 - Feat: Added `vercel.json` that works with `vue-router`. You can now publish this template on Vercel and everything Just Works.
 - Feat: Added `VITE_APP_BUILD_EPOCH` (generated build time as `new Date().getTime()`)
@@ -95,31 +110,39 @@ Vue 3 is now the default version -- congrats for the Vue team and the community!
 - Chore: bumped deps.
 
 ## 1.3.1 (2021-07-02)
+
 - Chore: bumped deps.
 
 ## 1.3.0 (2021-06-14)
+
 - Feat: upgraded Vue to 3.1.
 - Chore: bumped deps.
 
 ## 1.2.0 (2021-05-30)
+
 - Feat: upgraded Vue to 3.1 beta. (If you prefer to use a safer option, just change the requirement in `package.json`.)
 - Chore: bumped deps.
 
 ## 1.1.2 (2021-04-08)
+
 - Fix: fixed Cypress version in GitLab CI conf.
 
 ## 1.1.1 (2021-04-07)
+
 - Chore: bumped deps.
 
 ## 1.1.0 (2021-03-16)
+
 - Feat: added [Tailwind JIT compiler](https://github.com/tailwindlabs/tailwindcss-jit).
 - Chore: upgraded Vite to 2.1.
 - Chore: bumped deps.
 
 ## 1.0.2 (2021-03-10)
+
 - Chore: bumped deps.
 
 ## 1.0.1 (2021-03-01)
+
 - Chore: bumped deps.
 
 ## 1.0.0 (2021-02-22)
