@@ -1133,10 +1133,17 @@ debug@^3.1.0, debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.1, debug@^4.3.2, debug@^4.3.3:
+debug@^4.1.1, debug@^4.3.2:
   version "4.3.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
 
@@ -1586,10 +1593,10 @@ eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.1.0, eslint-visitor-keys@^3.3
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@~8.12.0:
-  version "8.12.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.12.0.tgz#c7a5bd1cfa09079aae64c9076c07eada66a46e8e"
-  integrity sha512-it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==
+eslint@~8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.13.0.tgz#6fcea43b6811e655410f5626cfcf328016badcd7"
+  integrity sha512-D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==
   dependencies:
     "@eslint/eslintrc" "^1.2.1"
     "@humanwhocodes/config-array" "^0.9.2"
@@ -3392,10 +3399,10 @@ tinypool@^0.1.2:
   resolved "https://registry.yarnpkg.com/tinypool/-/tinypool-0.1.2.tgz#5b1d5f5bb403afac8c67000047951ce76342fda7"
   integrity sha512-fvtYGXoui2RpeMILfkvGIgOVkzJEGediv8UJt7TxdAOY8pnvUkFg/fkvqTfXG9Acc9S17Cnn1S4osDc2164guA==
 
-tinyspy@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/tinyspy/-/tinyspy-0.3.0.tgz#51bcc198173385c50416df791cd10c192078cb36"
-  integrity sha512-c5uFHqtUp74R2DJE3/Efg0mH5xicmgziaQXMm/LvuuZn3RdpADH32aEGDRyCzObXT1DNfwDMqRQ/Drh1MlO12g==
+tinyspy@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/tinyspy/-/tinyspy-0.3.2.tgz#2f95cb14c38089ca690385f339781cd35faae566"
+  integrity sha512-2+40EP4D3sFYy42UkgkFFB+kiX2Tg3URG/lVvAZFfLxgGpnWl5qQJuBw1gaLttq8UOS+2p3C0WrhJnQigLTT2Q==
 
 tmp@~0.2.1:
   version "0.2.1"
@@ -3500,40 +3507,41 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-unplugin-auto-import@~0.6:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.6.4.tgz#5c1112055b8e3597033ee745fe37cb3ca49d29f7"
-  integrity sha512-gkjVKnugRCIh1JtwZhn8bdvdW8RW17WoCEJgJXJ9sGMsKrgP9xbaNMLULrmtrfxyGOabm42XXWoaR12EzdcVNA==
+unplugin-auto-import@~0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.7.0.tgz#5be5df1d9a825cb01323b9d06eaadf5253290753"
+  integrity sha512-40oC7bxzSyyvJI4mXmk8gDD7gKjR10gYkeWBu/UigK8TusXwUsJOjwvIr+REgzOMBGH/5pUiVMoBYEZrLejk3w==
   dependencies:
     "@antfu/utils" "^0.5.0"
     "@rollup/pluginutils" "^4.2.0"
     local-pkg "^0.4.1"
     magic-string "^0.26.1"
     resolve "^1.22.0"
-    unplugin "^0.4.0"
+    unplugin "^0.6.1"
 
-unplugin-vue-components@~0.18:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.18.0.tgz#e247ade96ed26ad7a26223622c3cdd8513246fa9"
-  integrity sha512-qk4AgtsydOw1RoGjVlC9toBnq9U8UD8gORRbZjZoNV14c1n5+ZZXV1Hjf7ne6SCt/SROBxpK6Kh3iqL0d8ijpw==
+unplugin-vue-components@~0.19.0:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.19.1.tgz#571d93f01a9a646dcb33a1a643e92f3ced1d78f3"
+  integrity sha512-i1mkqCf4acwkulew0+1YFEwRB4mfE9pTkiAZdm37gXxNc4U04TVGnVoEfFyavulG8kEkCRs1RChqGvV2Pta/Tg==
   dependencies:
     "@antfu/utils" "^0.5.0"
     "@rollup/pluginutils" "^4.2.0"
     chokidar "^3.5.3"
-    debug "^4.3.3"
+    debug "^4.3.4"
     fast-glob "^3.2.11"
     local-pkg "^0.4.1"
     magic-string "^0.26.1"
     minimatch "^5.0.1"
     resolve "^1.22.0"
-    unplugin "^0.4.0"
+    unplugin "^0.6.1"
 
-unplugin@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.4.0.tgz#43a923f0267f8834118a926c406131d1d84a1358"
-  integrity sha512-4ScITEmzlz1iZW3tkz+3L1V5k/xMQ6kjgm4lEXKxH0ozd8/OUWfiSA7RMRyrawsvq/t50JIzPpp1UyuSL/AXkA==
+unplugin@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.6.1.tgz#86da55d7a0d67629734dbe5e25efa9951422e64e"
+  integrity sha512-cQqRCgQ2v/Q4fPIWNVZ6sNIDdl5v8JXOnlsUOsGzT4fblTONoPWaytiYSpu5qJ9lvSDZYAQN6BRVo3XQoZMfUQ==
   dependencies:
     chokidar "^3.5.3"
+    webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.4.3"
 
 untildify@^4.0.0:
@@ -3572,7 +3580,19 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite@^2.8.6, vite@~2.9.0:
+vite@^2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.1.tgz#84bce95fae210a7beb566a0af06246748066b48f"
+  integrity sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==
+  dependencies:
+    esbuild "^0.14.27"
+    postcss "^8.4.12"
+    resolve "^1.22.0"
+    rollup "^2.59.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+vite@~2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.0.tgz#4417ce84a09d93c9e5a796b296285bc2f75d6c41"
   integrity sha512-5NAnNqzPmZzJvrswZGeTS2JHrBGIzIWJA2hBTTMYuoBVEMh0xwE0b5yyIXFxf7F07hrK4ugX2LJ7q6t7iIbd4Q==
@@ -3584,18 +3604,18 @@ vite@^2.8.6, vite@~2.9.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitest@~0.8.0:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.8.1.tgz#a1bd5b680553731af0330bdd84463b6ec668f89c"
-  integrity sha512-8HUyc9io1UInZTUKJWTgPG5fMEqd86IlMCjn2CEjGjli55M7iUJiiMwns9W21wKs6DMrRs2lu89X6rbfVvF53A==
+vitest@~0.9.0:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.9.3.tgz#18e7f80bc27d0f370a524647d73ecfa0236011ac"
+  integrity sha512-hKjqdBI732cV5giNLERyAsaJBebstrX5mvTbZr+jUDYUHnX1O4DpAJcHtqBOutuBi7lVIGQ5IF8eWvHHqbCHBA==
   dependencies:
     "@types/chai" "^4.3.0"
     "@types/chai-subset" "^1.3.3"
     chai "^4.3.6"
     local-pkg "^0.4.1"
     tinypool "^0.1.2"
-    tinyspy "^0.3.0"
-    vite "^2.8.6"
+    tinyspy "^0.3.2"
+    vite "^2.9.1"
 
 vue-demi@*:
   version "0.12.1"
@@ -3643,6 +3663,11 @@ wait-on@~6.0:
     lodash "^4.17.21"
     minimist "^1.2.5"
     rxjs "^7.5.4"
+
+webpack-sources@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
+  integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
 webpack-virtual-modules@^0.4.3:
   version "0.4.3"
