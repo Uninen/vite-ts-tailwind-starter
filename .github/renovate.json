@@ -12,12 +12,13 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": [
-        "*"
+      "matchManagers": [
+        "npm"
       ],
-      "rangeStrategy": "replace"
+      "stabilityDays": 3,
+      "prCreation": "not-pending"
     }
   ],
   "timezone": "Europe/Helsinki",
-  "dependencyDashboard": false
+  "dependencyDashboard": true
 }

@@ -6,10 +6,13 @@
     "strict": true,
     "jsx": "preserve",
     "sourceMap": false,
-    "lib": ["esnext", "dom"],
-    "types": ["vite/client", "cypress"],
     "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "types": ["vite/client", "cypress"],
     "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
     "paths": {
       "@/*": ["./src/*"]

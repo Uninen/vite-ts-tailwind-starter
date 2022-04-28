@@ -11,7 +11,7 @@ module.exports = {
     './.eslintrc-auto-import.json',
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
   },
   rules: {
     'no-var': 'error',
