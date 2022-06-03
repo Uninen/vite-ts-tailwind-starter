@@ -1,4 +1,4 @@
-image: node:17
+image: node:18
 
 stages:
   - test
@@ -18,7 +18,7 @@ cache:
 test:
   stage: test
   image:
-    name: cypress/included:9.5.1
+    name: cypress/included:10.0.2
     entrypoint: ['']
   script:
     # Uncomment for debugging
