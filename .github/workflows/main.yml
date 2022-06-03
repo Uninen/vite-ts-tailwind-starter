@@ -29,10 +29,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: 'pnpm'
       - uses: actions/cache@v3
         with:
           path: /home/runner/.local/share/pnpm/store
@@ -43,6 +39,10 @@ jobs:
         with:
           version: 7
           run_install: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
