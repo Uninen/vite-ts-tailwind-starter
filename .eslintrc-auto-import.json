@@ -1,5 +1,6 @@
 {
   "globals": {
+    "EffectScope": true,
     "acceptHMRUpdate": true,
     "computed": true,
     "createApp": true,
@@ -9,12 +10,13 @@
     "defineComponent": true,
     "defineStore": true,
     "effectScope": true,
-    "EffectScope": true,
     "getActivePinia": true,
     "getCurrentInstance": true,
     "getCurrentScope": true,
     "h": true,
     "inject": true,
+    "isProxy": true,
+    "isReactive": true,
     "isReadonly": true,
     "isRef": true,
     "mapActions": true,
@@ -62,6 +64,8 @@
     "useSlots": true,
     "useStore": true,
     "watch": true,
-    "watchEffect": true
+    "watchEffect": true,
+    "watchPostEffect": true,
+    "watchSyncEffect": true
   }
 }

@@ -26,22 +26,39 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: bahmutov/npm-install@v1
+      - name: Cache pnpm modules
+        uses: actions/cache@v3
+        with:
+          path: /home/runner/.local/share/pnpm/store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'pnpm'
 
       - name: Run unit tests
-        run: yarn test:ci
+        run: pnpm test:ci
 
-      - name: Run component tests
-        run: yarn test:ci-components
+      # - name: Run component tests
+      #   run: yarn test:ci-components
 
-      - name: Run e2e tests
-        run: |
-          yarn start
-          yarn test:ci-e2e
+      # - name: Run e2e tests
+      #   run: |
+      #     yarn start
+      #     yarn test:ci-e2e
 
-      - name: Upload artifacts on fail
-        uses: actions/upload-artifact@v3
-        if: failure()
-        with:
-          name: videos
-          path: tests/e2e/videos/
+      # - name: Upload artifacts on fail
+      #   uses: actions/upload-artifact@v3
+      #   if: failure()
+      #   with:
+      #     name: videos
+      #     path: tests/e2e/videos/

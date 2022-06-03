@@ -58,11 +58,11 @@
 
           <h4>Install dependencies</h4>
 
-          <pre>yarn</pre>
+          <pre>pnpm i</pre>
 
           <h4>Run development server</h4>
 
-          <pre>yarn dev</pre>
+          <pre>pnpm dev</pre>
 
           <h4>Open Cypress test runner</h4>
 
@@ -70,11 +70,11 @@
             Note: the development server needs to be running when using the Cypress test runner.
           </p>
 
-          <pre>yarn test</pre>
+          <pre>pnpm test</pre>
 
           <h4>Build for production</h4>
 
-          <pre>yarn build</pre>
+          <pre>pnpm build</pre>
 
           <h4>Other</h4>
 
