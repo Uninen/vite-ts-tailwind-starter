@@ -53,5 +53,5 @@ jobs:
       # - name: Run component tests
       #   run: yarn test:ci-components
 
-      - name: Run e2e tests
-        run: pnpm test:ci-e2e
+      # - name: Run e2e tests
+      #   run: pnpm test:ci-e2e
