@@ -51,14 +51,5 @@ jobs:
       # - name: Run component tests
       #   run: yarn test:ci-components
 
-      # - name: Run e2e tests
-      #   run: |
-      #     yarn start
-      #     yarn test:ci-e2e
-
-      # - name: Upload artifacts on fail
-      #   uses: actions/upload-artifact@v3
-      #   if: failure()
-      #   with:
-      #     name: videos
-      #     path: tests/e2e/videos/
+      - name: Run e2e tests
+        run: pnpm test:ci-e2e

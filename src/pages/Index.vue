@@ -7,7 +7,7 @@
       class="container relative max-w-2xl mx-auto bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5"
     >
       <header class="px-4 pt-6 prose-sm md:px-6 md:prose">
-        <h1>Vite + Vue 3 + TypeScript + Tailwind + Cypress Starter Template v{{ VERSION }}</h1>
+        <h1>Vite + Vue 3 + TypeScript + Tailwind + Playwright Starter Template v{{ VERSION }}</h1>
         <p class="pb-4 text-xl leading-relaxed tracking-wide text-gray-700">
           Opinionated, production ready template for Vite and Vue 3. MIT licensed,
           <a href="https://github.com/Uninen/vite-ts-tailwind-starter">available on GitHub</a>.
@@ -35,10 +35,10 @@
             </li>
             <li>Alias <code>@</code> to <code>project_root/src</code></li>
             <li>Predefined and typed global variables</li>
-            <li>Cypress.io e2e and component tests preconfigured (similarly to vue-cli)</li>
+            <li>Playwright e2e and component tests preconfigured</li>
             <li>
-              Github Workflows and Gitlab CI preconfigured to run e2e and component tests
-              automatically on every push
+              Github Workflows preconfigured to run e2e and component tests automatically on every
+              push
             </li>
           </ul>
 
@@ -64,13 +64,13 @@
 
           <pre>pnpm dev</pre>
 
-          <h4>Open Cypress test runner</h4>
-
-          <p class="text-gray-500">
-            Note: the development server needs to be running when using the Cypress test runner.
-          </p>
+          <h4>Run unit tests</h4>
 
           <pre>pnpm test</pre>
+
+          <h4>Run Playwright (e2e + component) tests</h4>
+
+          <pre>pnpm test-e2e</pre>
 
           <h4>Build for production</h4>
 

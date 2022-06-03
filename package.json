@@ -7,11 +7,9 @@
     "preview": "vite build && vite preview",
     "start": "pnpm dev & wait-on tcp:3000 -v",
     "test": "vitest",
-    "test-e2e": "cypress open",
-    "test-components": "cypress open-ct",
+    "test-e2e": "playwright test",
     "test:ci": "vitest",
-    "test:ci-e2e": "cypress run --headless",
-    "test:ci-components": "cypress run-ct"
+    "test:ci-e2e": "playwright test"
   },
   "dependencies": {
     "@vueuse/head": "0.7.6",
@@ -20,19 +18,18 @@
     "vue-router": "4.0.15"
   },
   "devDependencies": {
-    "@cypress/vite-dev-server": "2.2.2",
-    "@cypress/vue": "3.1.1",
     "@pinia/testing": "0.0.12",
+    "@playwright/test": "1.22.2",
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@tailwindcss/forms": "0.5.2",
     "@tailwindcss/line-clamp": "0.4.0",
     "@tailwindcss/typography": "0.5.2",
+    "@types/node": "^17.0.38",
     "@typescript-eslint/eslint-plugin": "5.27.0",
     "@typescript-eslint/parser": "5.27.0",
     "@vitejs/plugin-vue": "2.3.3",
     "autoprefixer": "10.4.7",
     "cssnano": "5.1.10",
-    "cypress": "9.5.1",
     "eslint": "8.16.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
