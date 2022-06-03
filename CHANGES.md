@@ -4,7 +4,8 @@
 
 - Feat: added `"allowSyntheticDefaultImports": true` to `tsconfig.json`
 - Feat: added Renovate bot
-- Feat: added Vitest config file. Thanks to @YusufcanY for the recommendation.
+- Feat: added Vitest config file. Thanks @YusufcanY for the recommendation.
+- Fix: Fix alias in Vite config for better Windows compatibility. Thanks @BraianAzcune for the report.
 
 ## 2.1.0 (2022-03-12)
 
