@@ -1,4 +1,3 @@
-/// <reference types="vitest" />
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -38,8 +37,5 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, '/src'),
     },
-  },
-  test: {
-    include: ['tests/unit/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
   },
 })
