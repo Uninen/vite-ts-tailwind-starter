@@ -37,10 +37,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - Automated unit tests
   - Automated component tests
   - Automated e2e tests
-- GitLab CI
-  - Automated unit tests
-  - Automated component tests 
-  - Automated e2e tests
+- GitLab CI config available up to versions 2.x
 
 ## Elsewhere
 
