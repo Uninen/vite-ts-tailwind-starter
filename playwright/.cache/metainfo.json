@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "fullName": "_Users_uninen_Code_Templates_vite_ts_tailwind_starter_src_components_SimpleComponent_vue",
+      "importPath": "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/src/components/SimpleComponent.vue",
+      "isModuleOrAlias": false
+    }
+  ],
+  "tests": {
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/tests/component/HelloWorld.spec.ts": {
+      "timestamp": 1654268576780.1606,
+      "components": [
+        "_Users_uninen_Code_Templates_vite_ts_tailwind_starter_src_components_SimpleComponent_vue"
+      ]
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/tests/e2e/basic.spec.ts": {
+      "timestamp": 1654255977440.5073,
+      "components": []
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/tests/e2e/scrollbars.spec.ts": {
+      "timestamp": 1654256956990.0537,
+      "components": []
+    }
+  },
+  "sources": {
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/playwright/index.html": {
+      "timestamp": 1654258540107.1213
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/playwright/index.js": {
+      "timestamp": 1654257903834.4998
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/vue@3.2.36/node_modules/vue/dist/vue.runtime.esm-bundler.js": {
+      "timestamp": 1649517572713.151
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+runtime-dom@3.2.36/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": {
+      "timestamp": 1653920703751.8555
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/src/components/SimpleComponent.vue": {
+      "timestamp": 1654268120980.4597
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+shared@3.2.36/node_modules/@vue/shared/dist/shared.esm-bundler.js": {
+      "timestamp": 1653920703681.0994
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+runtime-core@3.2.36/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": {
+      "timestamp": 1653920707280.572
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/src/store.ts": {
+      "timestamp": 1646559247101.0427
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+reactivity@3.2.36/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": {
+      "timestamp": 1653920707990.7185
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/pinia@2.0.14_qhv4oyzxhhzeba5rd2zztmcg2y/node_modules/pinia/dist/pinia.esm-browser.js": {
+      "timestamp": 1652183886460.6716
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/vue-demi@0.13.1_vue@3.2.36/node_modules/vue-demi/lib/index.mjs": {
+      "timestamp": 1654245933524.5369
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/index.js": {
+      "timestamp": 1649517578154.1382
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/env.js": {
+      "timestamp": 1649517578152.107
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/plugin.js": {
+      "timestamp": 1649517573206.9216
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/const.js": {
+      "timestamp": 1649517578151.8438
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/proxy.js": {
+      "timestamp": 1649517578153.988
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/time.js": {
+      "timestamp": 1649517578154.6958
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/index.js": {
+      "timestamp": 1649517578153.969
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/app.js": {
+      "timestamp": 1649517573206.9216
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/component.js": {
+      "timestamp": 1649517573206.9216
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/api.js": {
+      "timestamp": 1649517573206.9216
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/util.js": {
+      "timestamp": 1649517573206.9216
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": {
+      "timestamp": 1649517573206.9216
+    },
+    "/Users/uninen/Code/Templates/vite-ts-tailwind-starter/node_modules/.pnpm/@vue+devtools-api@6.1.4/node_modules/@vue/devtools-api/lib/esm/api/context.js": {
+      "timestamp": 1649517573206.9216
+    }
+  }
+}
