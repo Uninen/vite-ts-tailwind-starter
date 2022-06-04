@@ -7,7 +7,8 @@
     "preview": "vite build && vite preview",
     "start": "pnpm dev & wait-on tcp:3000 -v",
     "test": "vitest",
-    "test-e2e": "playwright test",
+    "test-ct": "playwright test -c playwright-ct.config.ts",
+    "test-e2e": "playwright test -c playwright.config.ts",
     "test:ci": "vitest",
     "test:ci-e2e": "playwright test"
   },
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@pinia/testing": "0.0.12",
+    "@playwright/experimental-ct-vue": "^1.22.2",
     "@playwright/test": "1.22.2",
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@tailwindcss/forms": "0.5.2",

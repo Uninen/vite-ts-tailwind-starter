@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@pinia/testing': 0.0.12
+  '@playwright/experimental-ct-vue': ^1.22.2
   '@playwright/test': 1.22.2
   '@tailwindcss/aspect-ratio': 0.4.0
   '@tailwindcss/forms': 0.5.2
@@ -45,6 +46,7 @@ dependencies:
 
 devDependencies:
   '@pinia/testing': 0.0.12_pinia@2.0.14+vue@3.2.36
+  '@playwright/experimental-ct-vue': 1.22.2_vue@3.2.36
   '@playwright/test': 1.22.2
   '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.0.24
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.0.24
@@ -183,6 +185,20 @@ packages:
       vue-demi: 0.13.1_vue@3.2.36
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@playwright/experimental-ct-vue/1.22.2_vue@3.2.36:
+    resolution: {integrity: sha512-iD6kSmPdlBSRau23Gpscp7q8ZkDSEmmtlpRUYhX+ohiADjnbNXAzbNRe3X/iiS5eE1naCK1VXQc4pv0T9FN3cw==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@playwright/test': 1.22.2
+      '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
+      vite: 2.9.9
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
       - vue
     dev: true
 

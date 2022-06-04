@@ -1,6 +1,7 @@
-import { PlaywrightTestConfig, devices } from '@playwright/test'
+import { type PlaywrightTestConfig, devices } from '@playwright/test'
 
 const config: PlaywrightTestConfig = {
+  testDir: './tests/e2e',
   webServer: {
     command: 'pnpm dev',
     url: 'http://localhost:3000/',
@@ -9,9 +10,8 @@ const config: PlaywrightTestConfig = {
   },
   use: {
     baseURL: 'http://localhost:3000',
+    trace: 'on-first-retry',
   },
-  testDir: './tests',
-  testMatch: '*(e2e|components)/*.*(spec|test).*(ts|js)',
   projects: [
     {
       name: 'iPhone 6',
