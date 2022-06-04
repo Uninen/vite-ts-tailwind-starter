@@ -64,9 +64,13 @@
 
           <pre>pnpm dev</pre>
 
-          <h4>Run unit + component tests (Vitest)</h4>
+          <h4>Run uni tests (Vitest)</h4>
 
           <pre>pnpm test</pre>
+
+          <h4>Run component tests (Playwright)</h4>
+
+          <pre>pnpm test-ct</pre>
 
           <h4>Run e2e tests (Playwright)</h4>
 

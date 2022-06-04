@@ -47,8 +47,11 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Run unit + component tests
+      - name: Run unit tests
         run: pnpm test:ci
+
+      - name: Run component tests
+        run: pnpm test:ci-ct
 
       - name: Run e2e tests
         run: pnpm test:ci-e2e

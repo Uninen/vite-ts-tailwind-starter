@@ -1,10 +1,10 @@
 # Changelog
 
-## Next
+## 3.0.0 (2022-06-04)
 
 - Feat: added `"allowSyntheticDefaultImports": true` to `tsconfig.json`
 - Feat: added Renovate bot
-- Feat: use Playwright instead of Cypress.io for e2e tests
+- Feat: use Playwright instead of Cypress.io for e2e and component tests. (Thank You to @pavelfeldman for helping w/ Playwright configuration)
 - Feat: use Vitest for component tests
 - Feat: added Vitest config file. Thanks @YusufcanY for the recommendation.
 - Fix: Fix alias in Vite config for better Windows compatibility. Thanks @BraianAzcune for the report.
