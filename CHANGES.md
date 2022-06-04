@@ -4,6 +4,8 @@
 
 - Feat: added `"allowSyntheticDefaultImports": true` to `tsconfig.json`
 - Feat: added Renovate bot
+- Feat: use Playwright instead of Cypress.io for e2e tests
+- Feat: use Vitest for component tests
 - Feat: added Vitest config file. Thanks @YusufcanY for the recommendation.
 - Fix: Fix alias in Vite config for better Windows compatibility. Thanks @BraianAzcune for the report.
 - Chore: Removed GitLab config. If you use GitLab, the chances are you already know how to configure it. Use [the latest 2.x version](https://github.com/Uninen/vite-ts-tailwind-starter/blob/f3c699a3f203e6ae19419ba68ae84ae8e2ec208d/.gitlab-ci.yml) as a base if you need one and modify to your needs.
