@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased (TBA)
+
+- Chore: bumped deps.
+
 ## 3.0.0 (2022-06-04)
 
 - Feat: added `"allowSyntheticDefaultImports": true` to `tsconfig.json`
