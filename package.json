@@ -34,7 +34,7 @@
     "@vitejs/plugin-vue": "2.3.3",
     "@vue/test-utils": "2.0.2",
     "autoprefixer": "10.4.7",
-    "c8": "^7.11.3",
+    "c8": "7.11.3",
     "cssnano": "5.1.12",
     "eslint": "8.19.0",
     "eslint-config-prettier": "8.5.0",

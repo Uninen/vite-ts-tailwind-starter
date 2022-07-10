@@ -15,7 +15,7 @@ specifiers:
   '@vue/test-utils': 2.0.2
   '@vueuse/head': 0.7.6
   autoprefixer: 10.4.7
-  c8: ^7.11.3
+  c8: 7.11.3
   cssnano: 5.1.12
   eslint: 8.19.0
   eslint-config-prettier: 8.5.0
