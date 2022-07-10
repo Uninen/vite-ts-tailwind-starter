@@ -1,4 +1,4 @@
-import { createTestingPinia } from '@pinia/testing';
+import { createTestingPinia } from '@pinia/testing'
 
 createTestingPinia({
   createSpy: (args) => {
@@ -7,4 +7,4 @@ createTestingPinia({
       console.log('spyreturns')
     }
   },
-});
+})
