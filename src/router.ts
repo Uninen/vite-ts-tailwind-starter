@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Index from '@/pages/Index.vue'
+import IndexPage from '@/pages/IndexPage.vue'
 
 const routes = [
   {
     path: '/',
-    component: Index,
+    component: IndexPage,
     meta: {
       title: 'Vite + Vue + TypeScript + Tailwind Starter Template',
     },

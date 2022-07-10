@@ -1,11 +1,11 @@
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { resolve } from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
-import pkg from './package.json'
+import { defineConfig } from 'vite'
+import { version as pkgVersion } from './package.json'
 
-process.env.VITE_APP_VERSION = pkg.version
+process.env.VITE_APP_VERSION = pkgVersion
 if (process.env.NODE_ENV === 'production') {
   process.env.VITE_APP_BUILD_EPOCH = new Date().getTime().toString()
 }
