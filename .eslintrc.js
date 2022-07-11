@@ -10,7 +10,9 @@ module.exports = {
     'prettier',
     './.eslintrc-auto-import.json',
   ],
+  parser: 'vue-eslint-parser',
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 2021,
   },
   rules: {
