@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased (TBA)
+## 3.1.0 (2022-07-17)
 
+- Feat: upgraded Vite to v3.0.
 - Chore: bumped deps.
 
 ## 3.0.0 (2022-06-04)
