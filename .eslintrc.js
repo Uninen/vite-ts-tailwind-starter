@@ -5,7 +5,8 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-recommended',
-    '@vue/typescript/recommended',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:security/recommended',
     'prettier',
     './.eslintrc-auto-import.json',
@@ -20,6 +21,8 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'comma-dangle': ['error', 'only-multiline'],
+    'id-length': [2, { exceptions: ['i', 'j', '_'] }],
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_' }],
   },
   globals: {
     defineProps: 'readonly',

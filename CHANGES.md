@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Tooling: added eslint rules for variable length and usage. Use `i` and `j` for trivial loop indexes and `_` for unused variable.
+- Chore: bumped deps.
+
 ## 3.1.0 (2022-07-17)
 
 - Feat: upgraded Vite to v3.0.
