@@ -3,9 +3,7 @@
 const route = useRoute()
 
 useHead({
-  bodyAttrs: {
-    title: route.meta.title,
-  },
+  title: route.meta.title,
   meta: [
     {
       property: 'og:title',
