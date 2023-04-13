@@ -53,7 +53,12 @@ const thisYear = new Date().getFullYear()
           </p>
 
           <ul>
-            <li>Pinia store (fully typed Vuex store available in version 1.13)</li>
+            <li
+              >Pinia store (fully typed Vuex store available in
+              <a href="https://github.com/Uninen/vite-ts-tailwind-starter/tree/v1.13"
+                >template version 1.13</a
+              >)</li
+            >
             <li>Routing using vue-router</li>
             <li>
               TailwindCSS w/ JIT-mode, purge, plugins, and production minimization pre-configured
@@ -92,13 +97,9 @@ const thisYear = new Date().getFullYear()
 
           <pre>pnpm dev</pre>
 
-          <h4>Run uni tests (Vitest)</h4>
+          <h4>Run unit + component tests (Vitest)</h4>
 
           <pre>pnpm test</pre>
-
-          <h4>Run component tests (Playwright)</h4>
-
-          <pre>pnpm test-ct</pre>
 
           <h4>Run e2e tests (Playwright)</h4>
 
