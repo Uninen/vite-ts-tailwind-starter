@@ -1,20 +1,17 @@
+/* eslint-env node */
+require('@rushstack/eslint-patch/modern-module-resolution')
+
 module.exports = {
   root: true,
-  env: {
-    node: true,
-  },
   extends: [
     'plugin:vue/vue3-recommended',
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
+    '@vue/eslint-config-typescript',
+    '@vue/eslint-config-prettier/skip-formatting',
     'plugin:security/recommended',
-    'prettier',
     './.eslintrc-auto-import.json',
   ],
-  parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: '@typescript-eslint/parser',
-    ecmaVersion: 2021,
+    ecmaVersion: 'latest',
   },
   rules: {
     'no-var': 'error',

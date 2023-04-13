@@ -1,7 +1,6 @@
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
+import { fileURLToPath, URL } from 'node:url'
 import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import { version as pkgVersion } from './package.json'
 
@@ -23,19 +22,15 @@ export default defineConfig({
           '@/store': ['useStore'],
         },
       ],
-      dts: 'src/auto-imports.d.ts',
+      dts: true,
       eslintrc: {
         enabled: true,
       },
     }),
-    Components({
-      dirs: ['src/components'],
-      extensions: ['vue'],
-    }),
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src'),
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 })

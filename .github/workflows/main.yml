@@ -44,14 +44,22 @@ jobs:
           node-version: 16
           cache: 'pnpm'
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+      - name: Type Check
+        run: pnpm type-check
 
       - name: Run unit tests
         run: pnpm test:ci
 
-      - name: Run component tests
-        run: pnpm test:ci-ct
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
 
       - name: Run e2e tests
-        run: pnpm test:ci-e2e
+        run: |
+          pnpm build
+          pnpm test:ci-e2e
+
+      - name: Coverage
+        uses: davelosert/vitest-coverage-report-action@v1.4.0
+        if: ${{ always() }}
+        # with:
+        #   vite-config-path: ./vite.config.ts

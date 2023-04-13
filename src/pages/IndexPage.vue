@@ -1,11 +1,12 @@
 <script setup lang="ts">
+import HelloWorld from '@/components/HelloWorld.vue'
+import { useHead } from '@vueuse/head'
+
 // useRoute, useHead, and HelloWorld are automatically imported. See vite.config.ts for details.
 const route = useRoute()
 
 useHead({
-  bodyAttrs: {
-    title: route.meta.title,
-  },
+  title: route.meta.title,
   meta: [
     {
       property: 'og:title',
@@ -52,7 +53,12 @@ const thisYear = new Date().getFullYear()
           </p>
 
           <ul>
-            <li>Pinia store (fully typed Vuex store available in version 1.13)</li>
+            <li
+              >Pinia store (fully typed Vuex store available in
+              <a href="https://github.com/Uninen/vite-ts-tailwind-starter/tree/v1.13"
+                >template version 1.13</a
+              >)</li
+            >
             <li>Routing using vue-router</li>
             <li>
               TailwindCSS w/ JIT-mode, purge, plugins, and production minimization pre-configured
@@ -91,13 +97,9 @@ const thisYear = new Date().getFullYear()
 
           <pre>pnpm dev</pre>
 
-          <h4>Run uni tests (Vitest)</h4>
+          <h4>Run unit + component tests (Vitest)</h4>
 
           <pre>pnpm test</pre>
-
-          <h4>Run component tests (Playwright)</h4>
-
-          <pre>pnpm test-ct</pre>
 
           <h4>Run e2e tests (Playwright)</h4>
 
@@ -126,29 +128,6 @@ const thisYear = new Date().getFullYear()
             See <code>vite.config.js</code> and <code>src/env.d.ts</code> for the configuration and
             <code>src/pages/BaseTemplate.vue</code> for usage example.
           </p>
-
-          <h3>Custom `firefox` variant for Tailwind</h3>
-
-          <p>
-            FireFox is important browser to the open Web. One of the very few things it still
-            doesn't do is
-            <a href="https://caniuse.com/css-backdrop-filter"
-              ><em>backdrop-filter</em> CSS property</a
-            >. The included <code>tailwind.config.js</code> has a custom plugin that allows you to
-            use a <strong>'firefox' variant</strong> in your Tailwind markup to target FireFox. The
-            setup uses Tailwind JIT mode and PurgeCSS so this doesn't add any weight to your CSS if
-            you don't use it. But, it's there if you happen to need it!
-          </p>
-
-          <p>
-            Here's an example markup for a div that has a different background opacity for FireFox:
-          </p>
-
-          <pre>
-&lt;div class="bg-black bg-opacity-20 firefox:bg-opacity-80 backdrop-filter backdrop-blur-lg"&gt;
-    Foo
-&lt;/div&gt;</pre
-          >
 
           <h3>Code Coverage</h3>
 
