@@ -13,9 +13,11 @@ export default mergeConfig(
   viteConfig,
   defineConfig({
     test: {
-      environment: 'happy-dom',
-      include: ['tests/unit/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+      globals: true,
+      environment: 'jsdom',
+      include: ['tests/{unit,component}/**/*.{test,spec}.ts'],
       root: fileURLToPath(new URL('./', import.meta.url)),
+      setupFiles: ['./tests/setup/testglobals.ts'],
     },
   })
 )

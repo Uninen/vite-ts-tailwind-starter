@@ -1,13 +1,14 @@
-import { test, expect } from '@playwright/experimental-ct-vue'
-import HelloWorld from '../../src/components/HelloWorld.vue'
+import { test, expect } from 'vitest'
+import { mount } from '@vue/test-utils'
+import Component from '@/components/HelloWorld.vue'
 
-test('should work', async ({ page, mount }) => {
-  await mount(HelloWorld, {
+test('HelloWorld', async () => {
+  expect(Component).toBeTruthy()
+
+  const wrapper = mount(Component, {
     props: {
       msg: 'Hello World',
     },
   })
-  // Can't use component selector here because HelloWorld is a gragment
-  // (is multiple elements). So we are starting from page.
-  await expect(page.locator('h2')).toContainText('Hello World')
+  expect(wrapper.text()).toContain('Hello World')
 })

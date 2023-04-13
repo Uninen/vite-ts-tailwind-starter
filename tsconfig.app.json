@@ -17,7 +17,8 @@
     "src/**/*.vue",
     "src/*.vue",
     "src/*.ts",
-    "./auto-imports.d.ts"
+    "./auto-imports.d.ts",
+    "tests/**/*.ts"
   ],
-  "exclude": ["node_modules", "dist", "public", "tests/*/**"]
+  "exclude": ["node_modules", "dist", "public"]
 }
