@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -24,6 +24,7 @@
     "@pinia/testing": "0.0.16",
     "@playwright/experimental-ct-vue": "1.32.3",
     "@playwright/test": "1.32.3",
+    "@rushstack/eslint-patch": "1.2.0",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/forms": "0.5.3",
     "@tailwindcss/line-clamp": "0.4.4",
@@ -32,8 +33,10 @@
     "@typescript-eslint/eslint-plugin": "5.58.0",
     "@typescript-eslint/parser": "5.58.0",
     "@vitejs/plugin-vue": "4.1.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
     "@vue/test-utils": "2.3.2",
-    "@vue/tsconfig": "^0.1.3",
+    "@vue/tsconfig": "0.1.3",
     "autoprefixer": "10.4.14",
     "c8": "7.13.0",
     "cssnano": "6.0.0",

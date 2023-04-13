@@ -10,10 +10,10 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 
 ## Features
 
-- Vue 3.2
-- Pinia store (fully typed Vuex store is available up to version 1.13)
+- Vue 3
+- Pinia store (fully typed Vuex store is available up to template version 1.13)
 - Routing using [vue-router 4](https://router.vuejs.org/)
-- TypeScript 4.7
+- TypeScript 5
 - Automatic package and component imports w/ [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) and [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 - Tailwind CSS 3 w/ following plugins and configuration preinstalled:
   - `@tailwindcss/aspect-ratio`
