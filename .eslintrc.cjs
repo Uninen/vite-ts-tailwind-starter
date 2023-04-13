@@ -5,10 +5,9 @@ module.exports = {
   root: true,
   extends: [
     'plugin:vue/vue3-recommended',
-    'eslint:recommended',
+    // 'eslint:recommended',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting',
-    // 'plugin:@typescript-eslint/recommended',
     'plugin:security/recommended',
     './.eslintrc-auto-import.json',
   ],

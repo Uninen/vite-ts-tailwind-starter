@@ -16,8 +16,8 @@
     "src/**/*.d.ts",
     "src/**/*.vue",
     "src/*.vue",
-    "src/*.ts"
-    // "./components.d.ts"
+    "src/*.ts",
+    "./auto-imports.d.ts"
   ],
   "exclude": ["node_modules", "dist", "public", "tests/*/**"]
 }

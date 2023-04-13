@@ -28,9 +28,9 @@
 
     // Recommended
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true
     // See <https://github.com/vuejs/vue-cli/pull/5688>
-    "skipLibCheck": true
+    // "skipLibCheck": true
   },
   "files": [],
   "references": [

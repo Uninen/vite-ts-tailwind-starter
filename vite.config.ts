@@ -1,7 +1,6 @@
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import { version as pkgVersion } from './package.json'
 
@@ -28,7 +27,6 @@ export default defineConfig({
         enabled: true,
       },
     }),
-    Components(),
   ],
   resolve: {
     alias: {
