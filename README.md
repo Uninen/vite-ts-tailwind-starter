@@ -27,13 +27,12 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
 - Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
-- Vitest unit tests
-- Playwright e2e + component tests
+- Vitest unit + component tests
 - GitHub workflows
   - Renovatebot for keeping up with dependencies
-  - Automated unit tests
-  - Automated component tests
+  - Automated unit + component tests
   - Automated e2e tests
+  - Coverage reporting in PR comments ([example](https://github.com/Uninen/vite-ts-tailwind-starter/pull/225#issuecomment-1507477206))
 - GitLab CI config available up to versions 2.x
 
 ## Elsewhere

@@ -1,9 +1,13 @@
 # Changelog
 
-## Unreleased
+## 4.0.0 (2023-04-13)
 
+- Feat: added coverage reporting to pull requests.
+- Refactor: converted component tests to Vitest. Thank You @WebPirat for the report (#223)
+- Refactor: updated configurations to match better `create vue` defaults.
+- Refactor: removed Tailwind Firefox rule.
 - Tooling: added eslint rules for variable length and usage. Use `i` and `j` for trivial loop indexes and `_` for unused variable.
-- Chore: bumped deps.
+- Chore: bumped all deps.
 
 ## 3.1.0 (2022-07-17)
 
