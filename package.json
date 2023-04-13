@@ -8,11 +8,9 @@
     "start": "pnpm dev & wait-on tcp:3000 -v",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "test-ct": "playwright test -c playwright-ct.config.ts",
-    "test-e2e": "playwright test -c playwright.config.ts",
+    "test-e2e": "playwright test --headed",
     "test:ci": "vitest",
-    "test:ci-e2e": "playwright test",
-    "test:ci-ct": "playwright test -c playwright-ct.config.ts"
+    "test:ci-e2e": "playwright test"
   },
   "dependencies": {
     "@vueuse/head": "1.1.23",
