@@ -15,9 +15,18 @@ export default mergeConfig(
     test: {
       globals: true,
       environment: 'jsdom',
-      include: ['tests/{unit,component}/**/*.{test,spec}.ts'],
+      include: ['tests/unit/**/*.test.ts', 'src/**/*.spec.ts'],
       root: fileURLToPath(new URL('./', import.meta.url)),
       setupFiles: ['./tests/setup/testglobals.ts'],
+      coverage: {
+        // exclude: ['__mocks__/*', 'tests/*', '**/*.spec.ts'],
+        provider: 'c8',
+        reporter: ['text', 'json', 'json-summary'],
+        lines: 65,
+        branches: 65,
+        functions: 15,
+        statements: 65,
+      },
     },
   })
 )

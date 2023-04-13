@@ -9,7 +9,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "test-e2e": "playwright test --headed",
-    "test:ci": "vitest",
+    "test:ci": "vitest run --coverage",
     "test:ci-e2e": "playwright test",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
@@ -34,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "5.58.0",
     "@typescript-eslint/parser": "5.58.0",
     "@vitejs/plugin-vue": "4.1.0",
+    "@vitest/coverage-c8": "0.30.1",
     "@vue/eslint-config-prettier": "7.1.0",
     "@vue/eslint-config-typescript": "11.0.2",
     "@vue/test-utils": "2.3.2",
