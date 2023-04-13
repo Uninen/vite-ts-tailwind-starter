@@ -128,29 +128,6 @@ const thisYear = new Date().getFullYear()
             <code>src/pages/BaseTemplate.vue</code> for usage example.
           </p>
 
-          <h3>Custom `firefox` variant for Tailwind</h3>
-
-          <p>
-            FireFox is important browser to the open Web. One of the very few things it still
-            doesn't do is
-            <a href="https://caniuse.com/css-backdrop-filter"
-              ><em>backdrop-filter</em> CSS property</a
-            >. The included <code>tailwind.config.js</code> has a custom plugin that allows you to
-            use a <strong>'firefox' variant</strong> in your Tailwind markup to target FireFox. The
-            setup uses Tailwind JIT mode and PurgeCSS so this doesn't add any weight to your CSS if
-            you don't use it. But, it's there if you happen to need it!
-          </p>
-
-          <p>
-            Here's an example markup for a div that has a different background opacity for FireFox:
-          </p>
-
-          <pre>
-&lt;div class="bg-black bg-opacity-20 firefox:bg-opacity-80 backdrop-filter backdrop-blur-lg"&gt;
-    Foo
-&lt;/div&gt;</pre
-          >
-
           <h3>Code Coverage</h3>
 
           <p>
