@@ -14,6 +14,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 - Pinia store (fully typed Vuex store is available up to template version 1.13)
 - Routing using [vue-router 4](https://router.vuejs.org/)
 - TypeScript 5
+  - Fully typed components configured in templates as well
 - Automatic package and component imports w/ [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) and [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 - Tailwind CSS 3 w/ following plugins and configuration preinstalled:
   - `@tailwindcss/aspect-ratio`
@@ -26,7 +27,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 - Predefined and fully typed global variables:
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
-- Using newest `script setup` syntax w/ Ref sugar (see the official [Script Setup documentation](https://vuejs.org/api/sfc-script-setup.html) and [Ref Sugar RFC](https://github.com/vuejs/rfcs/discussions/369) discussion)
+- Using newest `script setup` syntax (see the official [Script Setup documentation](https://vuejs.org/api/sfc-script-setup.html))
 - Vitest unit + component tests
 - GitHub workflows
   - Renovatebot for keeping up with dependencies

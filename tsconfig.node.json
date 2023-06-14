@@ -1,8 +1,12 @@
 {
-  "extends": "./tsconfig.common.json",
-  "include": ["vite.config.ts", "vitest.config.ts", "playwright.config.ts", "package.json"],
   "compilerOptions": {
     "composite": true,
-    "types": ["node"]
-  }
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": ["node", "jsdom"]
+  },
+  "include": ["vite.config.ts", "vitest.config.ts", "playwright.config.ts", "package.json"]
 }

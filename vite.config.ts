@@ -1,6 +1,7 @@
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import { version as pkgVersion } from './package.json'
 
@@ -20,12 +21,17 @@ export default defineConfig({
         'pinia',
         {
           '@/store': ['useStore'],
+          '@vueuse/head': ['useHead'],
         },
       ],
-      dts: true,
+      dts: 'src/auto-imports.d.ts',
+      vueTemplate: true,
       eslintrc: {
         enabled: true,
       },
+    }),
+    Components({
+      dts: 'src/components.d.ts',
     }),
   ],
   resolve: {
