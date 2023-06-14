@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-import { useHead } from '@vueuse/head'
-
 // useRoute, useHead, and HelloWorld are automatically imported. See vite.config.ts for details.
 const route = useRoute()
 
