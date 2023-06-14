@@ -20,7 +20,7 @@ export default mergeConfig(
       setupFiles: ['./tests/setup/testglobals.ts'],
       coverage: {
         // exclude: ['__mocks__/*', 'tests/*', '**/*.spec.ts'],
-        provider: 'c8',
+        provider: 'v8',
         reporter: ['text', 'json', 'json-summary'],
         lines: 75,
         branches: 65,
