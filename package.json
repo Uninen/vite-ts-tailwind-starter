@@ -2,7 +2,7 @@
   "name": "vite-ts-tailwind-starter",
   "version": "4.1.0",
   "scripts": {
-    "dev": "DEBUG=0 vite",
+    "dev": "cross-env DEBUG=0 vite",
     "build": "vite build",
     "preview": "vite build && vite preview",
     "start": "pnpm dev & wait-on tcp:3000 -v",
@@ -39,6 +39,7 @@
     "@vue/test-utils": "2.3.2",
     "@vue/tsconfig": "0.4.0",
     "autoprefixer": "10.4.14",
+    "cross-env": "^7.0.3",
     "cssnano": "6.0.1",
     "eslint": "8.42.0",
     "eslint-config-prettier": "8.8.0",
