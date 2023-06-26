@@ -59,7 +59,7 @@ jobs:
         run: pnpm test:ci
 
       - name: Coverage
-        uses: davelosert/vitest-coverage-report-action@v2.0.0
+        uses: davelosert/vitest-coverage-report-action@v2.1.0
         if: ${{ always() }}
         # with:
         #   vite-config-path: ./vite.config.ts
