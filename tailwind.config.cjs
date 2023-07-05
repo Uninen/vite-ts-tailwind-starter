@@ -1,5 +1,6 @@
 /* eslint-env node */
 // const defaultTheme = require('tailwindcss/defaultTheme')
+const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,5 +17,9 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
+    iconsPlugin({
+      // Collections: https://icones.js.org/
+      collections: getIconCollections(['mdi']),
+    }),
   ],
 }
