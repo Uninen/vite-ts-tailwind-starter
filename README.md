@@ -20,6 +20,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - `@tailwindcss/aspect-ratio`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
+  - [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
 - PostCSS 8 w/ `postcss-nesting` plugin and `cssnano` for minimizing production CSS
 - Eslint
 - Prettier

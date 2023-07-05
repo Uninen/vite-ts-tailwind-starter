@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.2.0 (2023-07-05)
+
+- Feat: added [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
+- Chore: bumped all deps.
+
 ## 4.1.0 (2023-06-14)
 
 - Feat: added explicit `DEBUG=0` for dev command to [silence Tailwind JIT noise](https://til.unessa.net/tailwind/silence-tailwind-debug-output/).
