@@ -7,13 +7,13 @@ on:
     paths:
       - 'src/**'
       - 'tests/**'
-      - 'yarn.lock'
+      - 'pnpm-lock.yaml'
       - '.github/workflows/main.yml'
   pull_request:
     paths:
       - 'src/**'
       - 'tests/**'
-      - 'yarn.lock'
+      - 'pnpm-lock.yaml'
       - '.github/workflows/main.yml'
 
 concurrency:
@@ -61,5 +61,3 @@ jobs:
       - name: Coverage
         uses: davelosert/vitest-coverage-report-action@v2.1.0
         if: ${{ always() }}
-        # with:
-        #   vite-config-path: ./vite.config.ts
