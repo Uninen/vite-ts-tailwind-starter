@@ -2,7 +2,11 @@
   "extends": [
     "config:base",
     "group:all",
-    "schedule:weekly"
+    "schedule:weekly",
+    ":widenPeerDependencies"
+  ],
+  "enabledManagers": [
+    "npm"
   ],
   "packageRules": [
     {
@@ -15,8 +19,14 @@
       "matchManagers": [
         "npm"
       ],
-      "stabilityDays": 2,
-      "prCreation": "not-pending"
+      "automerge": true,
+      "stabilityDays": 2
+    },
+    {
+      "matchPackagePatterns": [
+        "npm"
+      ],
+      "rangeStrategy": "auto"
     }
   ],
   "timezone": "Europe/Helsinki",
