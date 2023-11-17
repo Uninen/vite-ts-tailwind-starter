@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.0 (2023-11-17)
+
+- Feat: upgraded Vite to v5.0
+
 ## 4.2.0 (2023-07-05)
 
 - Feat: added [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
