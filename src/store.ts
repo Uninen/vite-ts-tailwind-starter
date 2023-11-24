@@ -22,6 +22,11 @@ export const useStore = defineStore('main', {
     increment(value = 1) {
       this.count += value
     },
+
+    goToDemo(event: Event) {
+      event.preventDefault()
+      this.router.push('/demo/')
+    },
   },
 
   getters: {

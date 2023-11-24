@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.0 (2023-11-24)
+
+- Feat: added `router` instance to store.
+- Enhancement: titles / head meta are now reactive.
+- Fix: added type=module to package.json.
+- Docs: updated homepage and README.
+
 ## 4.3.0 (2023-11-17)
 
 - Feat: upgraded Vite to v5.0

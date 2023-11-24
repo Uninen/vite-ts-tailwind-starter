@@ -1,4 +1,7 @@
 /// <reference types="vite/client" />
+import type { Router } from 'vue-router'
+import 'vue-router'
+import 'pinia'
 
 declare module '*.vue' {
   import { DefineComponent } from 'vue'
@@ -16,11 +19,15 @@ interface ImportMeta {
   readonly env: ImportMetaEnv
 }
 
-import 'vue-router'
-
 declare module 'vue-router' {
   interface RouteMeta {
     title?: string
+  }
+}
+
+declare module 'pinia' {
+  export interface PiniaCustomProperties {
+    router: Router
   }
 }
 
