@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0 (2023-12-04)
+
+- Upgrade vitest to version 1.0.0
+
 ## 5.0.0 (2023-11-24)
 
 - Feat: added `router` instance to store.
