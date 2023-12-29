@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.2.0 (2023-12-29)
+
+- Feat: Upgrade Vue to version 3.4.0
+- Refactor: realign TS configs to conform `create-vue`
+- Refactor: moved store and router into package index
+
 ## 5.1.0 (2023-12-04)
 
 - Upgrade vitest to version 1.0.0
