@@ -12,7 +12,7 @@
     "test-e2e": "playwright test --headed",
     "test:ci": "vitest run --coverage",
     "test:ci-e2e": "playwright test",
-    "type-check": "vue-tsc --noEmit -p tsconfig.json --composite false"
+    "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
     "@vueuse/head": "2.0.0",
