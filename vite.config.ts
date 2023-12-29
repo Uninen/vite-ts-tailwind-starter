@@ -24,14 +24,14 @@ export default defineConfig({
           '@vueuse/head': ['useHead'],
         },
       ],
-      dts: 'src/auto-imports.d.ts',
+      dts: 'auto-imports.d.ts',
       vueTemplate: true,
       eslintrc: {
         enabled: true,
       },
     }),
     Components({
-      dts: 'src/components.d.ts',
+      dts: 'components.d.ts',
     }),
   ],
   resolve: {
