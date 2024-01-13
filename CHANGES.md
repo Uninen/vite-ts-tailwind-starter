@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.1 (2024-01-13)
+
+- Chore: Added `github-actions` manager for Renovate
+
 ## 5.2.0 (2023-12-29)
 
 - Feat: Upgrade Vue to version 3.4.0

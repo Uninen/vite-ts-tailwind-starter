@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "type": "module",
   "scripts": {
     "dev": "cross-env DEBUG=0 vite",

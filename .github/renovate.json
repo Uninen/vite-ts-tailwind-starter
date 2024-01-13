@@ -6,7 +6,8 @@
     ":widenPeerDependencies"
   ],
   "enabledManagers": [
-    "npm"
+    "npm",
+    "github-actions"
   ],
   "packageRules": [
     {
