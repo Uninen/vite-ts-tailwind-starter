@@ -25,9 +25,9 @@
     },
     {
       "matchPackagePatterns": [
-        "npm"
+        "github-actions"
       ],
-      "rangeStrategy": "auto"
+      "automerge": true
     }
   ],
   "timezone": "Europe/Helsinki",
