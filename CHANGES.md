@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.3.0 (2024-05-02)
+
+- Refactor: realigned with create vue
+- Chore: bump deps
+
 ## 5.2.1 (2024-01-13)
 
 - Chore: Added `github-actions` manager for Renovate

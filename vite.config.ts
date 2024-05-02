@@ -1,3 +1,4 @@
+import { unheadVueComposablesImports } from '@unhead/vue'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -17,12 +18,11 @@ export default defineConfig({
       imports: [
         'vue',
         'vue-router',
-        '@vueuse/head',
         'pinia',
         {
           '@/store': ['useStore'],
-          '@vueuse/head': ['useHead'],
         },
+        unheadVueComposablesImports,
       ],
       dts: 'auto-imports.d.ts',
       vueTemplate: true,

@@ -1,9 +1,7 @@
 import { defineStore } from 'pinia'
 
 const versionString =
-  import.meta.env.MODE === 'development'
-    ? import.meta.env.VITE_APP_VERSION + '-dev'
-    : import.meta.env.VITE_APP_VERSION
+  import.meta.env.MODE === 'development' ? import.meta.env.VITE_APP_VERSION + '-dev' : import.meta.env.VITE_APP_VERSION
 
 export const useStore = defineStore('main', {
   state: () => ({

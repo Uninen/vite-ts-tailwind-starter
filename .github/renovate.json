@@ -1,32 +1,18 @@
 {
-  "extends": [
-    "config:base",
-    "group:all",
-    "schedule:weekly",
-    ":widenPeerDependencies"
-  ],
-  "enabledManagers": [
-    "npm",
-    "github-actions"
-  ],
+  "extends": ["config:base", "group:all", "schedule:weekly", ":widenPeerDependencies"],
+  "enabledManagers": ["npm", "github-actions"],
   "packageRules": [
     {
-      "updateTypes": [
-        "patch"
-      ],
+      "updateTypes": ["patch"],
       "enabled": false
     },
     {
-      "matchManagers": [
-        "npm"
-      ],
+      "matchManagers": ["npm"],
       "automerge": true,
       "stabilityDays": 2
     },
     {
-      "matchPackagePatterns": [
-        "github-actions"
-      ],
+      "matchPackagePatterns": ["github-actions"],
       "automerge": true
     }
   ],

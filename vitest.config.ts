@@ -1,8 +1,8 @@
 import { fileURLToPath, URL } from 'node:url'
-import viteConfig from './vite.config'
 import { mergeConfig } from 'vite'
-import { version as pkgVersion } from './package.json'
 import { defineConfig } from 'vitest/config'
+import { version as pkgVersion } from './package.json'
+import viteConfig from './vite.config'
 
 process.env.VITE_APP_VERSION = pkgVersion
 if (process.env.NODE_ENV === 'production') {
@@ -21,6 +21,7 @@ export default mergeConfig(
       coverage: {
         provider: 'v8',
         reporter: ['text', 'json', 'json-summary'],
+        include: ['!src/main.ts', 'src/**/*.ts', 'src/**/*.vue'],
         thresholds: {
           lines: 10,
           functions: 0,

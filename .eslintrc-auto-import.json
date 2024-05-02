@@ -82,6 +82,12 @@
     "ExtractDefaultPropTypes": true,
     "ExtractPropTypes": true,
     "ExtractPublicPropTypes": true,
-    "WritableComputedRef": true
+    "WritableComputedRef": true,
+    "getActiveHead": true,
+    "injectHead": true,
+    "useHeadSafe": true,
+    "useServerHead": true,
+    "useServerHeadSafe": true,
+    "useServerSeoMeta": true
   }
 }

@@ -8,8 +8,14 @@ module.exports = {
     'eslint:recommended',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting',
-    'plugin:security/recommended',
+    'plugin:security/recommended-legacy',
     './.eslintrc-auto-import.json',
+  ],
+  overrides: [
+    {
+      files: ['tests/e2e/**/*.{test,spec}.{js,ts,jsx,tsx}'],
+      extends: ['plugin:playwright/recommended'],
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -28,4 +34,5 @@ module.exports = {
     defineExpose: 'readonly',
     withDefaults: 'readonly',
   },
+  ignorePatterns: ['tests/e2e/**/*.ts'],
 }
