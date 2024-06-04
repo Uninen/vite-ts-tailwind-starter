@@ -19,14 +19,8 @@ const store = useStore()
         )
       </li>
       <li>
-        Routing using vue-router. See <router-link to="/demo/">
-          demo page
-        </router-link>. (Also
-        <a
-          href="#"
-          data-testid="pinia-anchor"
-          @click="store.goToDemo"
-        > routable fom the store </a>
+        Routing using vue-router. See <router-link to="/demo/"> demo page </router-link>. (Also
+        <a href="#" data-testid="pinia-anchor" @click="store.goToDemo"> routable fom the store </a>
         .)
       </li>
       <li>TailwindCSS w/ JIT-mode, purge, plugins, and production minimization pre-configured</li>

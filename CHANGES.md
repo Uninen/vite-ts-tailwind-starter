@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.1 (2024-06-04)
+
+- Chore: bump deps
+
 ## 5.3.0 (2024-05-02)
 
 - Refactor: realigned with create vue
