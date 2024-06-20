@@ -1,0 +1,25 @@
+{
+  extends: ['config:base', 'group:all', 'schedule:weekly', ':widenPeerDependencies'],
+  enabledManagers: ['npm', 'github-actions'],
+  packageRules: [
+    {
+      updateTypes: ['patch'],
+      enabled: false,
+    },
+    {
+      matchManagers: ['npm'],
+      automerge: true,
+      stabilityDays: 2,
+      // Eslint v9 changes the configuration format and most packages are
+      // not compatible with it yet.
+      // See https://github.com/vuejs/eslint-config-prettier/issues/19
+      ignoreDeps: ['eslint'],
+    },
+    {
+      matchPackagePatterns: ['github-actions'],
+      automerge: true,
+    },
+  ],
+  timezone: 'Europe/Helsinki',
+  dependencyDashboard: true,
+}

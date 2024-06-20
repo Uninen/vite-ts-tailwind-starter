@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.4.0 (2024-06-20)
+
+- Chore: pin Eslint version temporarily to 8.x
+- Chore: bump deps
+
 ## 5.3.1 (2024-06-04)
 
 - Chore: bump deps
