@@ -88,6 +88,13 @@
     "useHeadSafe": true,
     "useServerHead": true,
     "useServerHeadSafe": true,
-    "useServerSeoMeta": true
+    "useServerSeoMeta": true,
+    "DirectiveBinding": true,
+    "MaybeRef": true,
+    "MaybeRefOrGetter": true,
+    "onWatcherCleanup": true,
+    "useId": true,
+    "useModel": true,
+    "useTemplateRef": true
   }
 }
