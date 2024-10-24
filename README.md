@@ -11,7 +11,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 ## Features
 
 - Vue 3
-- Pinia store (fully typed Vuex store is available up to template version 1.13)
+- Pinia store (fully typed Vuex store is available up to template versions 1.13)
 - Routing using [vue-router 4](https://router.vuejs.org/)
 - TypeScript 5
   - Fully typed components configured in templates as well
@@ -22,19 +22,24 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
   - `@tailwindcss/forms`
   - [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
 - PostCSS 8 w/ `postcss-nesting` plugin and `cssnano` for minimizing production CSS
-- Eslint
+- Eslint 9 w/ flat config
 - Prettier
+- EditorConfig
+- Recommended settings and configs for VSCode
 - Alias `@` to `<project_root>/src`
 - Predefined and fully typed global variables:
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
-- Vitest unit + component tests with code coverage
+- Comprehensive testing setup (w/ CI integration):
+  - Vitest for unit and component testing with code coverage
+  - Playwright for E2E testing
 - GitHub workflows
   - Renovatebot for keeping up with dependencies
   - Automated unit + component tests
   - Automated e2e tests
   - Coverage reporting in PR comments ([example](https://github.com/Uninen/vite-ts-tailwind-starter/pull/225#issuecomment-1507477206))
-- GitLab CI config available up to versions 2.x
+- GitLab CI config available up to template versions 2.x
+- Vercel deployment configuration included
 
 ## Elsewhere
 

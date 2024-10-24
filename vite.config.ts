@@ -26,9 +26,6 @@ export default defineConfig({
       ],
       dts: 'auto-imports.d.ts',
       vueTemplate: true,
-      eslintrc: {
-        enabled: true,
-      },
     }),
     Components({
       dts: 'components.d.ts',
