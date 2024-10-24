@@ -1,18 +1,24 @@
 # Changelog
 
+## 6.0.0 (2024-10-24)
+
+- Feat: migrated Eslint configs to the new flat format
+- Feat: added vscode settings and extension recommendations 
+- Chore: bumped all deps.
+
 ## 5.4.0 (2024-06-20)
 
-- Chore: pin Eslint version temporarily to 8.x
-- Chore: bump deps
+- Chore: pinned Eslint version temporarily to 8.x
+- Chore: bumped all deps.
 
 ## 5.3.1 (2024-06-04)
 
-- Chore: bump deps
+- Chore: bumped all deps.
 
 ## 5.3.0 (2024-05-02)
 
 - Refactor: realigned with create vue
-- Chore: bump deps
+- Chore: bumped all deps.
 
 ## 5.2.1 (2024-01-13)
 
@@ -20,13 +26,13 @@
 
 ## 5.2.0 (2023-12-29)
 
-- Feat: Upgrade Vue to version 3.4.0
-- Refactor: realign TS configs to conform `create-vue`
+- Feat: Upgraded Vue to version 3.4.0
+- Refactor: realigned TS configs to conform `create-vue`
 - Refactor: moved store and router into package index
 
 ## 5.1.0 (2023-12-04)
 
-- Upgrade vitest to version 1.0.0
+- Upgraded vitest to version 1.0.0
 
 ## 5.0.0 (2023-11-24)
 
