@@ -4,7 +4,7 @@ import vueTsEslintConfig from '@vue/eslint-config-typescript'
 import pluginPlaywright from 'eslint-plugin-playwright'
 import security from 'eslint-plugin-security'
 import pluginVue from 'eslint-plugin-vue'
-import autoImportGlobals from './.eslintrc-auto-import.json' assert { type: 'json' }
+// import autoImportGlobals from './.eslintrc-auto-import.json' with { type: 'json' }
 
 export default [
   {
@@ -14,7 +14,7 @@ export default [
 
   {
     name: 'app/files-to-ignore',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**', '**/test-results/**'],
+    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**', '**/test-results/**', '*.config.*'],
   },
 
   {
@@ -27,12 +27,7 @@ export default [
       'id-length': [2, { exceptions: ['i', 'j', '_'] }],
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_' }],
     },
-  },
-
-  {
-    languageOptions: {
-      globals: autoImportGlobals.globals,
-    },
+    // languageOptions: autoImportGlobals,
   },
 
   ...pluginVue.configs['flat/recommended'],

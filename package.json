@@ -13,7 +13,7 @@
     "test-e2e": "playwright test --headed",
     "test:ci": "vitest run --coverage",
     "test:ci-e2e": "playwright test",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "eslint . --fix",
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
