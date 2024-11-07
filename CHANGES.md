@@ -1,9 +1,16 @@
 # Changelog
 
+## 6.1.0 (2024-11-07)
+
+- Feat: added HMR support to Pinia store.
+- Feat: enabled `preprocessorMaxWorkers` settings in Vite config. This speeds up CSS processing in larger projects.
+- Chore: changed Playwright mobile test to use iPhone SE.
+- Chore: bumped all deps.
+
 ## 6.0.0 (2024-10-24)
 
-- Feat: migrated Eslint configs to the new flat format
-- Feat: added VSCode settings and extension recommendations
+- Feat: migrated Eslint configs to the new flat format.
+- Feat: added VSCode settings and extension recommendations.
 - Chore: bumped all deps.
 
 ## 5.4.0 (2024-06-20)
