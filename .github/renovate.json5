@@ -1,19 +1,19 @@
 {
-  extends: ['config:base', 'group:all', 'schedule:weekly', ':widenPeerDependencies'],
+  extends: ['config:recommended', 'group:all', 'schedule:weekly', ':widenPeerDependencies'],
   enabledManagers: ['npm', 'github-actions'],
   packageRules: [
     {
-      updateTypes: ['patch'],
+      matchUpdateTypes: ['patch'],
       enabled: false,
     },
     {
       matchManagers: ['npm'],
       automerge: true,
-      stabilityDays: 2,
+      minimumReleaseAge: '2 days',
     },
     {
-      matchPackagePatterns: ['github-actions'],
       automerge: true,
+      matchPackageNames: ['/github-actions/'],
     },
   ],
   timezone: 'Europe/Helsinki',

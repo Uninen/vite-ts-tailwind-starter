@@ -4,6 +4,7 @@
 
 - Feat: added HMR support to Pinia store.
 - Feat: enabled `preprocessorMaxWorkers` settings in Vite config. This speeds up CSS processing in larger projects.
+- Chore: upgraded Renovate config.
 - Chore: changed Playwright mobile test to use iPhone SE.
 - Chore: bumped all deps.
 
