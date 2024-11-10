@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import DemoPage from '@/pages/DemoPage.vue'
 import IndexPage from '@/pages/IndexPage.vue'
 
 const routes = [
@@ -9,13 +8,6 @@ const routes = [
     component: IndexPage,
     meta: {
       title: 'Vite + Vue + TypeScript + Tailwind Starter Template',
-    },
-  },
-  {
-    path: '/demo/',
-    component: DemoPage,
-    meta: {
-      title: 'Demo title',
     },
   },
 ]

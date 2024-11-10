@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import HeaderComponent from '@/components/HeaderComponent.vue'
-import FooterComponent from '@/components/FooterComponent.vue'
-
 // See vite.config.ts for details about automatic imports
 const route = useRoute()
 
@@ -20,9 +17,5 @@ useHead({
 })
 </script>
 <template>
-  <HeaderComponent />
-  <main>
-    <router-view />
-  </main>
-  <FooterComponent />
+  <router-view />
 </template>
