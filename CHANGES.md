@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.0 (2024-11-10)
+
+- Refactor: major refactor to the codebase to bump the usability/DX.
+- Chore: bumped all deps.
+
 ## 6.1.0 (2024-11-07)
 
 - Feat: added HMR support to Pinia store.
