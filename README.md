@@ -1,45 +1,36 @@
 # Vite + Vue 3 + Typescript + Tailwind Starter
 
-Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
+Oopinionated, **fully typed**, and **production-ready** project template for Vite.
 
-This template is **practical** and **batteries included** but not overly complex or bloated. Also explicit configuration over magic; it should be easy to understand how everything works, strip out anything you don't need, and fast to modify things to your needs.
+The goal of this template is to be **practical** and **batteries included** starting point for both quick experiments and projects designed for production quality.
 
 Includes plenty of **examples and documentation** of how to do things but **minimal cruft** to delete to get you going.
 
-Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) for full docs. A [detailed changelog](./CHANGES.md) is available. This repository is also [mirrored on GitLab](https://gitlab.com/uninen/vite-ts-tailwind-starter).
+Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) for full docs. A [detailed changelog](./CHANGES.md) is available.
 
 ## Features
 
-- Vue 3
-- Pinia store (fully typed Vuex store is available up to template versions 1.13)
-- Routing using [vue-router 4](https://router.vuejs.org/)
-- TypeScript 5
-  - Fully typed components configured in templates as well
-- Automatic package and component imports w/ [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) and [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
-- Tailwind CSS 3 w/ following plugins and configuration preinstalled:
-  - `@tailwindcss/aspect-ratio`
-  - `@tailwindcss/typography`
-  - `@tailwindcss/forms`
-  - [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
-- PostCSS 8 w/ `postcss-nesting` plugin and `cssnano` for minimizing production CSS
-- Eslint 9 w/ flat config
-- Prettier
-- EditorConfig
-- Recommended settings and configs for VSCode
-- Alias `@` to `<project_root>/src`
+- **Vue 3** with [Pinia](https://pinia.vuejs.org/) store and [vue-router](https://router.vuejs.org/) routing
+- **Automatic imports** via [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) and [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+- **Tailwind CSS** with the official `aspect-ratio`, `typography` and `forms` plugins, plus **automatic icons** using [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
+- **Comprehensive tooling** configs for TypeScript, PostCSS 8 (w/ `postcss-nesting` plugin and `cssnano`), Eslint 9, Prettier, EditorConfig and recommended settings and configs for VSCode
+- **Full testing setup** using Vitest (components) and Playwright (e2e) together with Github Actions for CI/CD including [code coverage reporting](https://github.com/Uninen/vite-ts-tailwind-starter/pull/279#issuecomment-2435516534) in PRs.
+
+### Code Features / Opinions
+
+- Project root aliased as `@` (`import { myUtilsThing } from @/utils/mylib`)
+- Router instance available in the store: `this.router.push('/')`
+- Any of 100000+ Iconify icons available as Tailwind classes: `<span class="i-mdi-home"></span>`
 - Predefined and fully typed global variables:
-  - `VITE_APP_VERSION` is read from `package.json` version at build time
-  - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
-- Comprehensive testing setup (w/ CI integration):
-  - Vitest for unit and component testing with code coverage
-  - Playwright for E2E testing
-- GitHub workflows
-  - Renovatebot for keeping up with dependencies
-  - Automated unit + component tests
-  - Automated e2e tests
-  - Coverage reporting in PR comments ([example](https://github.com/Uninen/vite-ts-tailwind-starter/pull/225#issuecomment-1507477206))
-- GitLab CI config available up to template versions 2.x
-- Vercel deployment configuration included
+  - `VITE_APP_VERSION` is read from `package.json` version at build time and stored to the store as `store.appMeta.version`
+  - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time and stored to the store as `store.appMeta.buildTime`
+
+### Very Fast (TM) To Reset
+
+1. Delete `src/components/HelloWorld.vue` and `src/components/__tests__/HelloWorld.spec.ts`
+2. Delete the content from `@/pages/IndexPage.vue`
+3. Delete demo styles from `@/assets/base.postcss`
+4. Profit!11
 
 ## Elsewhere
 
