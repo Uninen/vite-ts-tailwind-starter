@@ -34,3 +34,4 @@ LOCAL_NOTES.md
 package-lock.json
 *.tsbuildinfo
 .vscode/starter.code-workspace
+test-results/
