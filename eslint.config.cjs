@@ -1,12 +1,11 @@
-import pluginVitest from '@vitest/eslint-plugin'
-import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
-import vueTsEslintConfig from '@vue/eslint-config-typescript'
-import pluginPlaywright from 'eslint-plugin-playwright'
-import security from 'eslint-plugin-security'
-import pluginVue from 'eslint-plugin-vue'
-// import autoImportGlobals from './.eslintrc-auto-import.json' with { type: 'json' }
+const pluginVitest = require('@vitest/eslint-plugin')
+const skipFormatting = require('@vue/eslint-config-prettier/skip-formatting')
+const vueTsEslintConfig = require('@vue/eslint-config-typescript')
+const security = require('eslint-plugin-security')
+const pluginVue = require('eslint-plugin-vue')
 
-export default [
+/** @type {import('eslint').Linter.Config[]} */
+module.exports = [
   {
     name: 'app/files-to-lint',
     files: ['**/*.{ts,mts,tsx,vue}'],
@@ -25,9 +24,8 @@ export default [
       'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
       'comma-dangle': ['error', 'only-multiline'],
       'id-length': [2, { exceptions: ['i', 'j', '_'] }],
-      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '_' }],
+      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     },
-    // languageOptions: autoImportGlobals,
   },
 
   ...pluginVue.configs['flat/recommended'],
@@ -36,11 +34,6 @@ export default [
   {
     ...pluginVitest.configs.recommended,
     files: ['tests/unit/**/*'],
-  },
-
-  {
-    ...pluginPlaywright.configs['flat/recommended'],
-    files: ['tests/e2e/**/*.{test,spec}.{js,ts,jsx,tsx}'],
   },
 
   skipFormatting,
