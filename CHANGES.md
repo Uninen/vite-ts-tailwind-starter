@@ -1,5 +1,12 @@
 # Changelog
 
+## 7.1.0 (2024-11-19)
+
+- Refactor: renamed `type-check` command to `ts`.
+- Refactor: changed `with { type: 'json' }` for package.json import.
+- Chore: pinned GH workflow action versions.
+- Chore: bumped all deps.
+
 ## 7.0.1 (2024-11-12)
 
 - Fix: fixed Eslint config.

@@ -28,24 +28,24 @@ jobs:
       PLAYWRIGHT_BROWSERS_PATH: 0
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/cache@v4
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/cache@v4.1.2
         with:
           path: /home/runner/.local/share/pnpm/store
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@v2.4.1
         with:
           version: 9
           run_install: true
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.1.0
         with:
           node-version: 22
           cache: 'pnpm'
 
       - name: Type Check
-        run: pnpm type-check
+        run: pnpm ts
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
