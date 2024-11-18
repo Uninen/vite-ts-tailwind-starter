@@ -5,7 +5,7 @@
     "interface-extensions.d.ts",
     "components.d.ts",
     "auto-imports.d.ts",
-    "src/**/*",
+    "src/**/*.ts",
     "src/**/*.vue"
   ],
   "exclude": ["src/**/__tests__/*"],
