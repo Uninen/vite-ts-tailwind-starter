@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.2.0 (2024-11-19)
+
+- Feat: allow manual dispatch for tests.
+- Refactor: make e2e tests run parallel and cache the browsers for extra speed.
+
 ## 7.1.0 (2024-11-19)
 
 - Refactor: renamed `type-check` command to `ts`.

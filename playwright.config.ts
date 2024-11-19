@@ -40,21 +40,21 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'iPhone SE',
+      name: 'webkit',
       use: {
         browserName: 'webkit',
         ...devices['iPhone SE'],
       },
     },
     {
-      name: 'Macbook 11',
+      name: 'firefox',
       use: {
         browserName: 'firefox',
         ...devices['Macbook 11'],
       },
     },
     {
-      name: 'Desktop',
+      name: 'chromium',
       use: {
         browserName: 'chromium',
         ...devices['Macbook Pro'],

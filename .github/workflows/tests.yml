@@ -1,5 +1,5 @@
 name: Tests
-
+# this should run w cache now 3
 on:
   push:
     branches:
@@ -24,9 +24,9 @@ concurrency:
 jobs:
   tests:
     runs-on: ubuntu-latest
-
-    env:
-      PLAYWRIGHT_BROWSERS_PATH: 0
+    strategy:
+      matrix:
+        browser: [webkit, firefox, chromium]
 
     steps:
       - uses: actions/checkout@v4.2.2
@@ -40,23 +40,34 @@ jobs:
           node-version: 22
           cache: 'pnpm'
 
+      - uses: actions/cache@v4.1.2
+        id: playwright-cache
+        with:
+          path: |
+            ~/.cache/ms-playwright
+          key: ${{ runner.os }}-${{ matrix.browser }}-playwright-${{ hashFiles('**/pnpm-lock.yaml') }}
+
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
       - name: Type Check
         run: pnpm ts
 
-      - name: Install Playwright browsers
-        run: pnpm exec playwright install --with-deps
+      - name: Run unit tests
+        run: pnpm vitest run --coverage
+
+      - run: pnpm exec playwright install --with-deps ${{ matrix.browser }}
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+
+      - run: pnpm exec playwright install-deps ${{ matrix.browser }}
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+
+      - name: Build
+        run: pnpm vite build
 
       - name: Run e2e tests
-        run: |
-          pnpm build
-          pnpm test:ci-e2e
-
-      - name: Run unit tests
-        run: pnpm test:ci
+        run: pnpm playwright test --project="${{ matrix.browser }}"
 
       - name: Coverage
         uses: davelosert/vitest-coverage-report-action@v2.8.0
-        if: ${{ always() }}
+        if: ${{ matrix.browser == 'webkit' && success() }}
