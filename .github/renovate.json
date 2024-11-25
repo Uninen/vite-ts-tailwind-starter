@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", "group:all", "after 8am every weekday", "npm:unpublishSafe"],
+  "extends": ["config:recommended", "group:all", "npm:unpublishSafe"],
   "enabledManagers": ["npm", "github-actions"],
+  "schedule": ["after 8am every weekday"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
