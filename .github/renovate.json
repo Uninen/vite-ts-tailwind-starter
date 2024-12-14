@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "group:all", "npm:unpublishSafe"],
   "enabledManagers": ["npm", "github-actions"],
-  "schedule": ["after 8am every weekday"],
+  "schedule": ["after 6am every weekday"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
