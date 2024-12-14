@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.3.0 (2024-12-14)
+
+- Chore: bumped TypeScript to v7.2.
+- Chore: bumped all deps.
+
 ## 7.2.0 (2024-11-19)
 
 - Feat: allow manual dispatch for tests.
