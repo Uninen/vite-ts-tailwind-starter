@@ -53,7 +53,7 @@
     "jsdom": "26.0.0",
     "lodash-es": "4.17.21",
     "npm-run-all2": "7.0.1",
-    "postcss": "8.4.49",
+    "postcss": "8.5.0",
     "postcss-import": "16.1.0",
     "postcss-nesting": "13.0.1",
     "prettier": "3.4.2",
