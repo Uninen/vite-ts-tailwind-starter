@@ -40,7 +40,7 @@
     "@vitest/coverage-v8": "2.1.8",
     "@vitest/eslint-plugin": "1.1.16",
     "@vue/eslint-config-prettier": "10.1.0",
-    "@vue/eslint-config-typescript": "14.2.0",
+    "@vue/eslint-config-typescript": "14.3.0",
     "@vue/test-utils": "2.4.6",
     "@vue/tsconfig": "0.7.0",
     "autoprefixer": "10.4.20",
