@@ -11,9 +11,9 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 ## Features
 
 - **Vue 3** with [Pinia](https://pinia.vuejs.org/) store and [vue-router](https://router.vuejs.org/) routing
-- **Automatic imports** via [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) and [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
-- **Tailwind CSS** with the official `aspect-ratio`, `typography` and `forms` plugins, plus **automatic icons** using [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
-- **Comprehensive tooling** configs for TypeScript, PostCSS 8 (w/ `postcss-nesting` plugin and `cssnano`), Eslint 9, Prettier, EditorConfig and recommended settings and configs for VSCode
+- **Automatic imports** via [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
+- **Tailwind CSS** with the official `typography` plugin, plus **automatic icons** using [@egoist/tailwindcss-icons](https://github.com/egoist/tailwindcss-icons)
+- **Comprehensive tooling** configs for TypeScript, PostCSS, Eslint, Biome, Prettier, EditorConfig and recommended settings and configs for VSCode
 - **Full testing setup** using Vitest (components) and Playwright (e2e) together with Github Actions for CI/CD including [code coverage reporting](https://github.com/Uninen/vite-ts-tailwind-starter/pull/279#issuecomment-2435516534) in PRs.
 
 ### Code Features / Opinions
@@ -29,7 +29,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 
 1. Delete `src/components/HelloWorld.vue` and `src/components/__tests__/HelloWorld.spec.ts`
 2. Delete the content from `@/pages/IndexPage.vue`
-3. Delete demo styles from `@/assets/base.postcss`
+3. Delete demo styles from `@/assets/base.css`
 4. Profit!11
 
 ## Elsewhere
