@@ -1,20 +1,23 @@
 name: Tests
+permissions:
+  contents: read
+  pull-requests: write
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'src/**'
-      - 'tests/**'
-      - 'pnpm-lock.yaml'
-      - '.github/workflows/tests.yml'
+      - "src/**"
+      - "tests/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/tests.yml"
   pull_request:
     paths:
-      - 'src/**'
-      - 'tests/**'
-      - 'pnpm-lock.yaml'
-      - '.github/workflows/tests.yml'
+      - "src/**"
+      - "tests/**"
+      - "pnpm-lock.yaml"
+      - ".github/workflows/tests.yml"
   workflow_dispatch:
 
 concurrency:
@@ -38,7 +41,7 @@ jobs:
       - uses: actions/setup-node@v4.2.0
         with:
           node-version: 22
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - uses: actions/cache@v4.2.2
         id: playwright-cache
