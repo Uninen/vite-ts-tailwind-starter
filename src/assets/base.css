@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "@egoist/tailwindcss-icons" {
+  prefixes: mdi;
+}
 
 /* Demo styles -- delete these to start from a clean slate */
 header {

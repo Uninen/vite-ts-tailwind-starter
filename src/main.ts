@@ -1,9 +1,10 @@
-import '@/assets/base.postcss'
 import router from '@/router'
 import { createHead } from '@unhead/vue'
 import { createPinia } from 'pinia'
 import { createApp, markRaw } from 'vue'
 import App from './App.vue'
+
+import '@/assets/base.css'
 
 const head = createHead()
 const app = createApp(App)
