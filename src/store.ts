@@ -6,7 +6,7 @@ export const useStore = defineStore('main', {
     appMeta: {
       version:
         import.meta.env.MODE === 'development'
-          ? import.meta.env.VITE_APP_VERSION + '-dev'
+          ? `${import.meta.env.VITE_APP_VERSION}-dev`
           : import.meta.env.VITE_APP_VERSION,
       builtAt: import.meta.env.VITE_APP_BUILD_EPOCH
         ? new Date(Number(import.meta.env.VITE_APP_BUILD_EPOCH))
@@ -33,7 +33,7 @@ export const useStore = defineStore('main', {
   },
 
   getters: {
-    isReady: state => {
+    isReady: (state) => {
       return state.isInitialized
     },
   },
