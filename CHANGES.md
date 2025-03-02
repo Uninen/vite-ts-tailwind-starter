@@ -1,5 +1,11 @@
 # Changelog
 
+## 8.0.0 (2024-03-02)
+
+- Feat: upgraded Tailwind to version 4
+- Feat: included Biome config
+- Chore: bumped all deps.
+
 ## 7.3.0 (2024-12-14)
 
 - Chore: bumped TypeScript to v7.2.
