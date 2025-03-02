@@ -5,12 +5,8 @@
   "schedule": ["after 6am every weekday"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["patch"],
-      "enabled": false
-    },
-    {
       "matchManagers": ["npm"],
-      "minimumReleaseAge": "2 days",
+      "minimumReleaseAge": "3 days",
       "automerge": true
     },
     {
