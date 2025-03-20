@@ -34,7 +34,7 @@ Please [check out the homepage](https://vite-ts-tailwind-starter.vercel.app/) fo
 
 ## Elsewhere
 
-- [Follow @uninen](https://twitter.com/uninen) on Twitter
+- Follow [unessa.net on Bluesky](https://bsky.app/profile/uninen.net) or [@uninen on Twitter](https://twitter.com/uninen)
 - Read my continuously updating learnings from Vite / Vue / TypeScript and other Web development topics from my [Today I Learned site](https://til.unessa.net/)
 
 ## Contributing
