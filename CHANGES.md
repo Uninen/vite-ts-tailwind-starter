@@ -1,6 +1,11 @@
 # Changelog
 
-## 8.0.0 (2024-03-02)
+## 8.1.0 (2025-03-27)
+
+- Chore: migrated @unhead/vue to version 2.
+- Chore: bumped all deps.
+
+## 8.0.0 (2025-03-02)
 
 - Feat: upgraded Tailwind to version 4
 - Feat: included Biome config

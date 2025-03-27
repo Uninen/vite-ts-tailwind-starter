@@ -1,5 +1,4 @@
 import tailwindcss from '@tailwindcss/vite'
-import { unheadVueComposablesImports } from '@unhead/vue'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -22,8 +21,8 @@ export default defineConfig({
         'pinia',
         {
           '@/store': ['useStore'],
+          '@unhead/vue': ['useHead'],
         },
-        unheadVueComposablesImports,
       ],
       dts: 'auto-imports.d.ts',
       vueTemplate: true,
