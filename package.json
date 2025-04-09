@@ -47,7 +47,7 @@
     "lodash-es": "^4.17.21",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.0.17",
-    "typescript": "5.8.2",
+    "typescript": "5.8.3",
     "unplugin-auto-import": "^19.1.2",
     "unplugin-vue-components": "^28.4.1",
     "vite": "^6.2.3",
