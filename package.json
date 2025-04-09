@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "8.1.0",
+  "version": "8.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -57,8 +57,6 @@
     "wait-on": "^8.0.3"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
+    "onlyBuiltDependencies": ["esbuild"]
   }
 }

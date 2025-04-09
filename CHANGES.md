@@ -1,5 +1,11 @@
 # Changelog
 
+## 8.2.0 (2025-04-09)
+
+- CI: upgraded Renovate to use `pinGitHubActionDigestsToSemver` helper for added security.
+- CI: bumped pnpm version for GH Actions to v10.
+- Chore: bumped all deps.
+
 ## 8.1.0 (2025-03-27)
 
 - Chore: migrated @unhead/vue to version 2.
@@ -7,8 +13,8 @@
 
 ## 8.0.0 (2025-03-02)
 
-- Feat: upgraded Tailwind to version 4
-- Feat: included Biome config
+- Feat: upgraded Tailwind to version 4.
+- Feat: included Biome config.
 - Chore: bumped all deps.
 
 ## 7.3.0 (2024-12-14)
