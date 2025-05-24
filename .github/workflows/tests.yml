@@ -38,7 +38,7 @@ jobs:
           version: 10
           run_install: false
 
-      - uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4.3.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
           cache: "pnpm"
@@ -72,5 +72,5 @@ jobs:
         run: pnpm playwright test --project="${{ matrix.browser }}"
 
       - name: Coverage
-        uses: davelosert/vitest-coverage-report-action@7bf7d3c1b17a0e27c7e0d14190fb39168584bed2 # v2.8.1
+        uses: davelosert/vitest-coverage-report-action@8ab049ff5a2c6e78f78af446329379b318544a1a # v2.8.3
         if: ${{ matrix.browser == 'webkit' && success() }}
