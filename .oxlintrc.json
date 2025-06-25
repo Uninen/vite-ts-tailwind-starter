@@ -1,0 +1,56 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "typescript",
+    "unicorn"
+  ],
+  "categories": {
+    "correctness": "off"
+  },
+  "env": {
+    "builtin": true
+  },
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/dist-ssr/**",
+    "**/coverage/**",
+    "**/test-results/**",
+    "*.config.*"
+  ],
+  "rules": {
+    "no-var": "error",
+    "no-console": "off",
+    "no-debugger": "off",
+    "curly": "off",
+    "no-unexpected-multiline": "off",
+    "unicorn/empty-brace-spaces": "off",
+    "unicorn/no-nested-ternary": "off",
+    "unicorn/number-literal-case": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "tests/unit/**/*"
+      ],
+      "rules": {
+        "vitest/expect-expect": "error",
+        "vitest/no-identical-title": "error",
+        "vitest/no-commented-out-tests": "error",
+        "vitest/valid-expect": "error",
+        "vitest/valid-describe-callback": "error",
+        "vitest/require-local-test-context-for-concurrent-snapshots": "error",
+        "vitest/no-import-node-test": "error"
+      },
+      "plugins": [
+        "vitest"
+      ]
+    }
+  ]
+}
