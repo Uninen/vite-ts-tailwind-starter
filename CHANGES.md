@@ -1,5 +1,15 @@
 # Changelog
 
+## 8.3.0 (2025-10-21)
+
+- Feat: changed CSS icons from `@egoist/tailwindcss-icons` to `@iconify/tailwind4`
+  - This requires changing icon classes from `i-mdi-plus-circle-outline` to `iconify mdi--plus-circle-outline`
+- Feat: added oxlint
+- Refactor: upgraded eslint config from cjs to ts
+- Refactor: upgraded tsconfig files to align better with current Vite and Vue defaults.
+- Chore: removed (unused) biome config.
+- Chore: bumped all deps.
+
 ## 8.2.0 (2025-04-09)
 
 - CI: upgraded Renovate to use `pinGitHubActionDigestsToSemver` helper for added security.

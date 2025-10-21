@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @plugin "@tailwindcss/typography";
-@plugin "@egoist/tailwindcss-icons" {
+@plugin "@iconify/tailwind4" {
   prefixes: mdi;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "vite-ts-tailwind-starter",
-  "version": "8.2.0",
+  "version": "8.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,7 @@
     "test-e2e": "playwright test --headed",
     "coverage": "vitest run --coverage",
     "lint": "eslint . --fix",
+    "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "ts": "vue-tsc --build --force"
   },
   "dependencies": {
@@ -20,7 +21,7 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
-    "@egoist/tailwindcss-icons": "^1.9.0",
+    "@iconify/tailwind4": "^1.0.6",
     "@iconify-json/mdi": "^1.2.3",
     "@pinia/testing": "^1.0.2",
     "@playwright/test": "^1.56.1",
@@ -28,6 +29,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.15",
     "@tsconfig/node22": "^22.0.2",
+    "@types/eslint-plugin-security": "^3.0.0",
     "@types/jsdom": "^27.0.0",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^24.9.1",
@@ -41,11 +43,13 @@
     "@vue/tsconfig": "^0.8.1",
     "cssnano": "^7.1.1",
     "eslint": "^9.38.0",
+    "eslint-plugin-oxlint": "^1.23.0",
     "eslint-plugin-playwright": "^2.2.2",
     "eslint-plugin-security": "^3.0.1",
     "eslint-plugin-vue": "^10.5.1",
     "jsdom": "^27.0.1",
     "lodash-es": "^4.17.21",
+    "oxlint": "^1.23.0",
     "prettier": "^3.6.2",
     "tailwindcss": "^4.1.15",
     "typescript": "5.9.3",
