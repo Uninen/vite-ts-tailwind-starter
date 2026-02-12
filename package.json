@@ -28,7 +28,7 @@
     "@prettier/plugin-oxc": "^0.0.4",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.15",
-    "@tsconfig/node22": "^22.0.2",
+    "@tsconfig/node24": "^24.0.0",
     "@types/eslint-plugin-security": "^3.0.0",
     "@types/jsdom": "^27.0.0",
     "@types/lodash-es": "^4.17.12",
